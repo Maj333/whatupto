@@ -11,7 +11,40 @@
 </head>
 <body>
 <?php
-    include_once("./pages/login_form.html");
+session_start();
+if (isset($_SESSION['user'])) { // checking if user is logged in
+    if (isset($_GET['action'])) { // checking if any action
+        $action = $_GET['action'];
+    } else {
+        $action = 'main'; // main == dashboard
+    }
+    switch ($action) { // for logged users
+        case 'main':
+            include_once("./pages/main.html");
+            break;
+        default:
+            include_once("./pages/main.html");
+            break;
+    }
+} else {
+    if (isset($_GET['action'])) { // checking if any action
+        $action = $_GET['action'];
+    } else {
+        $action = 'login';
+    }
+}
+
+switch ($action) { // for non-logged
+    case 'login':
+        include_once("./pages/login_form.html");
+        break;
+    case 'register':
+        include_once('./pages/register_form.html');
+        break;
+    default:
+        include_once("./pages/login_form.html");
+        break;
+}
 ?>
 </body>
 </html>
