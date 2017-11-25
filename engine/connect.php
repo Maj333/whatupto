@@ -19,7 +19,7 @@ Class Connect{
 
     static public function connectionInit()
     {
-        connect::$connection = mysqli_connect(connect::host, connect::user, connect::password,connect::database);
+        connect::$connection = mysqli_connect(connect::$host, connect::$user, connect::$password,connect::$database);
 
         if (mysqli_connect_errno())
         {
@@ -30,7 +30,7 @@ Class Connect{
     }
 
     static public function closeConnection(){
-        mysqli_close(connect::connection);
+        mysqli_close(connect::$connection);
     }
 
 }
