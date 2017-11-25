@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import "reset.css";
+
+body {
+    /*background-color: #EDFCED;*/
+    font-family: Roboto, sans-serif;
+}
+
+.rawbar {
+    background-color: #2D7437;
+    top: 0;
+    height: 80px;
+}
+
+.logo-name {
+    float: left;
+    color: #EDFCED;
+    line-height: 250%;
+    font-family: 'Lobster', cursive;
+    font-size: 200%;
+
+}
+
+#logo-img {
+    height: 60px;
+    width: 60px;
+    margin: 10px 20px 0 10px;
+    float: left;
+    border: 0;
+    alt: "tekst alternatywny";
+    background-image: url("../img/loga.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.logo {
+    position: relative;
+}

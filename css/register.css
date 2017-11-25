@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+    background-color: #2D7437;
+    font-size: 12px;
+}
+
+.register-logo {
+    font-family: Lobster, serif;
+    margin: 30px auto;
+    width: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: 10px;
+}
+
+.register-logo span {
+    display: block;
+    margin-top: 20px;
+}
+
+.register-logo img {
+    width: 150px;
+}
+
+.register-wrapper {
+    background-color: #FFFFFF;
+    width: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
+.register-form {
+    margin: 20px 40px;
+}
+
+.register-field {
+    border-radius: 5px;
+    border: 1px solid #CBCBD2;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+.register-button {
+    border-radius: 5px;
+    background-color: #48BA44;
+    border: 1px solid #CBCBD2;
+    width: 100%;
+    padding: 10px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #2D7437;
+}
+
+.register-title {
+    text-align: center;
+    font-weight: normal;
+    color: #48BA44;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
