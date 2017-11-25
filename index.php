@@ -10,15 +10,8 @@
     <title>whatupto</title>
 </head>
 <body>
-<h1 class="login-logo"><img src="img/loga.png" alt="logo"><span>whatupto</span></h1>
-<div class="login-wrapper">
-    <h2 class="login-title">Log in to your account</h2>
-    <form class="login-form" action="./engine/login.php" method="POST">
-        <input class="login-field" type="text" placeholder="Login">
-        <input class="login-field" type="password" placeholder="Password">
-        <button class="login-button" type="submit">Log In</button>
-    </form>
-
-</div>
+<?php
+    include_once("./pages/login_form.html");
+?>
 </body>
 </html>
