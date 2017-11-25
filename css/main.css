@@ -3,11 +3,12 @@
 body {
     background-image: url(../../img/pattern1.jpg);
     /*background-color: #EDFCED;*/
+    font-family: Roboto, sans-serif;
 }
 
 .rawbar {
     background-color: #2D7437;
-    top: 0px;
+    top: 0;
     height: 60px;
 }
 
