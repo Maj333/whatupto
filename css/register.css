@@ -55,6 +55,11 @@ body {
     width: 100%;
     padding: 10px 5px;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #2D7437;
 }
 
 .register-title {
