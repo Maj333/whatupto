@@ -5,7 +5,7 @@ body {
     font-size: 12px;
 }
 
-.login-logo {
+.register-logo {
     font-family: Lobster, serif;
     margin: 30px auto;
     width: 50%;
@@ -16,16 +16,16 @@ body {
     letter-spacing: 10px;
 }
 
-.login-logo span {
+.register-logo span {
     display: block;
     margin-top: 20px;
 }
 
-.login-logo img {
+.register-logo img {
     width: 150px;
 }
 
-.login-wrapper {
+.register-wrapper {
     background-color: #FFFFFF;
     width: 50%;
     max-width: 400px;
@@ -34,11 +34,11 @@ body {
     padding-top: 20px;
 }
 
-.login-form {
+.register-form {
     margin: 20px 40px;
 }
 
-.login-field {
+.register-field {
     border-radius: 5px;
     border: 1px solid #CBCBD2;
     display: block;
@@ -48,7 +48,7 @@ body {
     box-sizing: border-box;
 }
 
-.login-button {
+.register-button {
     border-radius: 5px;
     background-color: #48BA44;
     border: 1px solid #CBCBD2;
@@ -57,27 +57,11 @@ body {
     color: #FFFFFF;
 }
 
-.login-title {
+.register-title {
     text-align: center;
     font-weight: normal;
     color: #48BA44;
     font-size: 2em;
     margin-bottom: 20px;
-}
-
-.register-link {
-    text-align: center;
-    border-top: 1px solid #DDDDDD;
-    padding: 20px 0;
-    font-size: 1.3em;
-}
-
-.register-link a {
-    text-decoration: none;
-    color: #48BA44;
-}
-
-.register-link a:hover {
-    text-decoration: underline;
 }
 
