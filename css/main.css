@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../../img/pattern1.jpg);
+    /*background-color: #EDFCED;*/
+}
+
+.rawbar {
+    background-color: #2D7437;
+    top: 0px;
+    height: 60px;
+}
+
+.logo-name {
+    float: left;
+    color: #EDFCED;
+    line-height: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+
+}
+
+#logo-img {
+    height: 40px;
+    width: 40px;
+    margin: 10px 20px 0 10px;
+    float: left;
+    border: 0;
+    alt: "tekst alternatywny";
+    background-image: url("../../img/loga.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.logo {
+    position: relative;
+}
+
+#profile-img {
+    z-index: 2;
+    alt: "orofile pic";
+}
+
+.img-circle {
+    margin: 20px 20px 0 0;
+    border-radius: 50%;
+    border: 5px solid #2D7437;
+    width: 150px;
+    height: 150px;
+    float: right;
+    background-image: url(https://frieze.com/sites/default/files/styles/general_teaser/public/editorial/johann-by-lukas-gansterer_thumb.jpg?itok=b_TNccXw);
+    background-position: center center;
+    background-size: cover;
+}
+
+.user {
+}
+
+.sidebar {
+    background-color: transparent;
+    /*border-right: 1px solid #48BA44;*/
+    width: 150px;
+    padding: 10px;
+    margin: 0 0 50px 0;
+}
+
+.box {
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #EDFCED;
+    box-shadow: 3px 3px 6px #666;
+    margin-bottom: 5px;
+}
+
+.chat {
+    background-image: url(https://microbitpolska.org/static/img/profile.png);
+    background-position: center center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.name {
+    line-height: 40px;
+}
+
+.greeting {
+    float: right;
+    margin: 10px 20px 0 0;
+    font-family: 'Lobster', cursive;
+    color: #EDFCED;
+    font-size: 20px;
+}
