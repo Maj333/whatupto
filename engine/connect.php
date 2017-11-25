@@ -7,19 +7,19 @@
  */
 
 
-Class connect{
+Class Connect{
 
-    private $database = "whatuptoo";
-    private $host= "mysql1.gear.host";
-    private $password="ala123$";
-    private $user= "whatuptoo";
-    private $db_port = '3306';
-    public $connection;
+    static private $database = "whatuptoo";
+    static private $host= "mysql1.gear.host";
+    static private $password="ala123$";
+    static private $user= "whatuptoo";
+    static private $db_port = '3306';
+    static public $connection;
 
 
-    public function __construct()
+    static public function connectionInit()
     {
-        $this -> connection = mysqli_connect($this->host, $this->user, $this->password,$this->database);
+        connect::$connection = mysqli_connect(connect::host, connect::user, connect::password,connect::database);
 
         if (mysqli_connect_errno())
         {
@@ -29,16 +29,10 @@ Class connect{
         }
     }
 
-    public function closeConnection(){
-        mysqli_close($this->connection);
+    static public function closeConnection(){
+        mysqli_close(connect::connection);
     }
 
-
-
-    public function __destruct()
-    {
-        $this->closeConnection();
-    }
 }
 
 

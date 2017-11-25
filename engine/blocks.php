@@ -1,0 +1,31 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: gtluszcz
+ * Date: 25.11.2017
+ * Time: 23:04
+ */
+
+Class Blocks{
+
+    static public function getAllBlocks(){
+        $query="SELECT combinetub.id, username,starttime,finishtime,day,tag_name
+                FROM combinetub
+                
+                  LEFT JOIN
+                  (
+                  SELECT combineub.id, users.username, blocks.starttime, blocks.finishtime, blocks.day
+                  FROM combineub
+                    LEFT JOIN users
+                      ON combineub.user_id = users.id
+                    LEFT JOIN blocks
+                      ON combineub.block_id = blocks.id
+                  ) blocks_users
+                  ON combinetub.combineUB_id = blocks_users.id
+                
+                  LEFT JOIN tags
+                    ON combinetub.tags_id=tags.id";
+
+        $result=mysqli_query(connect::$connection,$query)or die("Błąd przy wyświetlaniu bloków");
+    }
+}
