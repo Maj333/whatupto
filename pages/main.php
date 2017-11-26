@@ -33,7 +33,7 @@
                     foreach ($lol as $user) {
                         echo "<a href=\"#\" class=\"box\">
                         <img class=\"znajomy-photo\" src=\"https://microbitpolska.org/static/img/profile.png\">
-                        <p class=\"name\">" . $user . "</p>
+                        <p class=\"chat_name\">" . $user . "</p>
                     </a>";
                     }
 
@@ -43,31 +43,31 @@
                 <div class="sidebar-znajomi">
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="name">unknown user</p>
+                        <p class="chat_name">unknown user</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="name">unknown user</p>
+                        <p class="chat_name">unknown user</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="name">unknown user</p>
+                        <p class="chat_name">unknown user</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="name">unknown user</p>
+                        <p class="chat_name">unknown user</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="name">unknown user</p>
+                        <p class="chat_name">unknown user</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="name">unknown user</p>
+                        <p class="chat_name">unknown user</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="name">unknown user</p>
+                        <p class="chat_name">unknown user</p>
                     </a>
                 </div>
             </div>
