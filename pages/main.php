@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <title>WhatUpTo</title>
     <link rel="stylesheet" title="base"
+          href="..\css\jquery-ui.min.css" type="text/css"/>
+    <link rel="stylesheet" title="base"
+          href="..\css\jquery-ui.theme.css" type="text/css"/>
+    <link rel="stylesheet" title="base"
           href="..\css\main.css" type="text/css"/>
     <link rel="stylesheet" title="base"
           href="..\css\profile.css" type="text/css"/>
     <link rel="shortcut icon" href="../img/favicon.ico">
+
+    <script type="text/javascript" src="..\js\jquery.js"></script>
+    <script type="text/javascript" src="..\js\jquery-ui.min.js"></script>
+    <script type="text/javascript" src="..\js\profile.js"></script>
 </head>
 <body>
 
@@ -123,7 +131,7 @@
                             </div>
                         </div>
                         <div class ="day">
-                            <div class="name"><p>Poniedziałek</p></div>
+                            <div class="name"><p>Pon</p></div>
                             <div class="plan">
                                 <div class="blocks" style="top: 0%; height: 8.3%;">
                                     <p>cos</p>
@@ -141,13 +149,13 @@
 
                         </div>
                         <div class ="day">
-                            <div class="name"><p>Wtorek</p></div>
+                            <div class="name"><p>Wt</p></div>
                             <div class="plan">
                             </div>
                         </div>
 
                         <div class ="day">
-                            <div class="name"><p>Środa</p></div>
+                            <div class="name"><p>Śr</p></div>
                             <div class="plan">
                                 <div class="blocks" style="top: 20%; height: 70px;">
                                     <p>cos</p>
@@ -156,19 +164,19 @@
                         </div>
 
                         <div class ="day">
-                            <div class="name"><p>Czwartek</p></div>
+                            <div class="name"><p>Czw</p></div>
                             <div class="plan">
                             </div>
                         </div>
 
                         <div class ="day">
-                            <div class="name"><p>Piątek</p></div>
+                            <div class="name"><p>Pt</p></div>
                             <div class="plan">
                             </div>
                         </div>
 
                         <div class ="day">
-                            <div class="name"><p>Sobota</p></div>
+                            <div class="name"><p>So</p></div>
                             <div class="plan">
                                 <div class="blocks" style="top: 28%; height: 150px;">
                                     <p>cos</p>
@@ -177,7 +185,7 @@
                         </div>
 
                         <div class ="day">
-                            <div class="name"><p>Niedziela</p></div>
+                            <div class="name"><p>Nd</p></div>
                             <div class="plan">
                             </div>
                         </div>
