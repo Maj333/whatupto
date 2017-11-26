@@ -224,6 +224,7 @@ body {
     border-left: 1px solid #1C492B;
     border-right: 1px solid #1C492B;
     transition: margin 0.5s ease;
+    z-index: 10;
 }
 
 .bar {
@@ -235,10 +236,12 @@ body {
     font-weight: 700;
     display: block;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .bar:hover {
     background-color: #17491B;
+    cursor: pointer;
 }
 
 .chat-messages {

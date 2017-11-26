@@ -8,13 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="shortcut icon" href="img/favicon.ico">
     <title>WhatUpTo</title>
-    <link rel="stylesheet" title="base"
-          href="css\jquery-ui.min.css" type="text/css"/>
-    <link rel="stylesheet" title="base"
-          href="css\jquery-ui.theme.css" type="text/css"/>
-    <link rel="stylesheet" title="base"
-          href="css\main.css" type="text/css"/>
-
+    <link rel="stylesheet" title="base" href="css\jquery-ui.min.css" type="text/css"/>
+    <link rel="stylesheet" title="base" href="css\jquery-ui.theme.css" type="text/css"/>
     <script type="text/javascript" src="js\jquery.js"></script>
     <script type="text/javascript" src="js\jquery-ui.min.js"></script>
     <script type="text/javascript" src="js\profile.js"></script>
