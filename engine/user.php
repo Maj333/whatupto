@@ -9,11 +9,11 @@ require_once 'connect.php';
 
 Class User {
     static public function addUser($username, $password) {
-        $safe_username = stripslashes($username);
+       /* $safe_username = stripslashes($username);
         $safe_password = stripslashes($password);
         $safe_username = trim(mysqli_real_escape_string(connect::$connection, $safe_username));
-        $safe_password = trim(mysqli_real_escape_string(connect::$connection, $safe_password)); // TODO:  hash later :D #security
-        $query = "INSERT INTO users (username, password) VALUES ($safe_username, $safe_password);";
+        $safe_password = trim(mysqli_real_escape_string(connect::$connection, $safe_password)); */// TODO:  hash later :D #security
+        $query = "INSERT INTO users (username, password) VALUES ($username, $password);";
         $result = mysqli_query(connect::$connection, $query) or die("Błąd przy dodawaniu użytkownika");
 
     }
