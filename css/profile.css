@@ -27,11 +27,12 @@
     justify-content: space-around;
     padding: 10px;
     background-color: #2D7437;
+    box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.83);
     color:#EDFCED ;margin-bottom: 5px;
 }
 
 .name {
-    line-height: 200%;
+    line-height: 300%;
     color: #2D7437;
 }
 
@@ -48,7 +49,7 @@
     padding: 5px;
     background-color: rgba(45, 116, 55, 0.2);
     width: 95%;
-    height: 220px;
+    height: 210px;
 
     overflow-y: scroll;
 }
@@ -70,7 +71,21 @@
     background-size: cover;
     width: 30px;
     height: 30px;
-    margin-top: 5px;
+    margin-top: 10%;
+}
+.circle-akt{
+    margin-top: 15px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #48BA44;
+}
+.circle-nieakt{
+    margin-top: 15px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(235, 15, 13, 0.87);
 }
 
 .sidebar-znajomi::-webkit-scrollbar-track {
@@ -118,4 +133,3 @@
     margin: 20px 27px 0 0;
     float: right;
 }
-
