@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import "reset.css";
+
+body {
+    background-image: url(../img/pattern1.jpg);
+}
+
+#profile-img {
+    z-index: 2;
+    alt: "orofile pic";
+}
+
+.sidebar {
+    background-color: transparent;
+    width: 15%;
+    padding: 1%;
+    margin: 0 0 1% 0;
+}
+
+.box {
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #EDFCED;
+    box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.83);
+    margin-bottom: 5px;
+}
+.box-h1{
+    border-radius: 6px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #2D7437;
+    color:#EDFCED ;
+    box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.62);
+    margin-bottom: 5px;
+}
+
+.name {
+    line-height: 200%;
+    color: #2D7437;
+}
+
+.greeting {
+    float: right;
+    margin: 15px 20px 0 0;
+    font-family: 'Lobster', cursive;
+    color: #EDFCED;
+    font-size: 150%;
+}
+.sidebar-znajomi{
+    border-radius: 6px;
+    padding: 5px;
+    background-color: rgba(45, 116, 55,0.2);
+    width: 100%;
+    height: 220px;
+    overflow-y: scroll;
+}
+#user-photo{
+    alt: "photo";
+    margin: 20px 20px 0 0;
+    border-radius: 50%;
+    border: 5px solid #2D7437;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+.znajomy-photo{
+    alt:"photo";
+    background-position: center center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
