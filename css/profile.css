@@ -27,9 +27,7 @@
     justify-content: space-around;
     padding: 10px;
     background-color: #2D7437;
-    color: #EDFCED;
-    box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.62);
-    margin-bottom: 5px;
+    color:#EDFCED ;margin-bottom: 5px;
 }
 
 .name {
