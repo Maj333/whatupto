@@ -1,3 +1,7 @@
+.profile-wrapper {
+    background-image: url(../img/pattern1.jpg);
+}
+
 #profile-img {
     alt: "orofile pic";
 }
