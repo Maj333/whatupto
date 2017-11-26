@@ -75,11 +75,10 @@ ul {list-style-type: none;}
     width: 95%;
     position: absolute;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 6px;
     font-size:12px;
     background: #48ba44;
     color: #1c492b;
-    box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.62);
 }
 
 .plan{
