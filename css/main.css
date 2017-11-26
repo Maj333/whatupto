@@ -13,7 +13,6 @@ body {
     width: 60%;
     margin: 50px auto 0 auto;
     font-size: 1.2em;
-    background: #2d7437;
     border-radius: 10px;
 }
 
@@ -21,6 +20,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    background: #2d7437;
     color: #FFFFFF;
 }
 
@@ -35,11 +35,15 @@ body {
 .prev {
     float: left;
     font-size: 2em;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .next {
     float: right;
     font-size: 2em;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .weekdays {
@@ -47,23 +51,20 @@ body {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
-    background-color: #ddd;
+    background-color: #DDDDDD;
     display: flex;
     flex-direction: row;
-    position: relative;
-
 }
 
 .day {
     display: flex;
     flex-direction: column;
-    position: relative;
     width: 13%;
     text-align: center;
 }
 
 .blocks {
-    padding: 0;
+    padding: 10px;
     /*margin: 0 2.5% 0 2.5%;*/
     z-index: 100;
     display: block;
@@ -71,9 +72,9 @@ body {
     position: absolute;
     text-align: center;
     border-radius: 6px;
-    font-size: 12px;
     background: #48ba44;
     color: #1c492b;
+    box-sizing: border-box;
 }
 
 .plan {
@@ -98,14 +99,12 @@ body {
     margin: 0 2.5%;
     width: 95%;
     position: relative;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px 0;
     text-align: center;
-    margin-bottom: 1px;
     font-size: 13px;
-    background: #eee;
-    color: #1c492b;
-    box-shadow: 1px 1px 1px rgba(102, 102, 102, 0.62);
+    background: #EEEEEE;
+    color: #1C492B;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.62);
 }
 
 .hours li .active {
@@ -116,8 +115,7 @@ body {
 
 .nonlogin-wrapper {
     background-color: #2D7437;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 0;
 }
 
 .rawbar {
@@ -192,3 +190,9 @@ body {
 .add-button:hover {
     background-color: #1e4120;
 }
+
+.hours li:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom: none;
+}
+

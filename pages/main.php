@@ -31,20 +31,44 @@
                     connect::connectionInit();
                     $lol = user::getAllUsers();
                     foreach($lol as $user){
-                        echo "<div class=\"box\">
-                        <a href=\"http://whatuptoo.herokuapp.com/\"><img class=\"znajomy-photo\" src=\"https://microbitpolska.org/static/img/profile.png\"></a>
+                        echo "<a href=\"http://whatuptoo.herokuapp.com/\" class=\"box\">
+                        <img class=\"znajomy-photo\" src=\"https://microbitpolska.org/static/img/profile.png\">
                         <p class=\"name\">".$user."</p>
-                    </div>";
+                    </a>";
                     }
                     
                     ?>
                 </div>
                 <div class="box-h1">INNI UŻYTKOWNICY</div>
                 <div class="sidebar-znajomi">
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                    </div>
+                    <a class="box" href="http://whatuptoo.herokuapp.com/">
+                       <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="name">nieznajomy</p>
+                    </a>
+                    <a class="box" href="http://whatuptoo.herokuapp.com/">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="name">nieznajomy</p>
+                    </a>
+                    <a class="box" href="http://whatuptoo.herokuapp.com/">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="name">nieznajomy</p>
+                    </a>
+                    <a class="box" href="http://whatuptoo.herokuapp.com/">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="name">nieznajomy</p>
+                    </a>
+                    <a class="box" href="http://whatuptoo.herokuapp.com/">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="name">nieznajomy</p>
+                    </a>
+                    <a class="box" href="http://whatuptoo.herokuapp.com/">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="name">nieznajomy</p>
+                    </a>
+                    <a class="box" href="http://whatuptoo.herokuapp.com/">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="name">nieznajomy</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -58,8 +82,8 @@
                                 <input class="add-field" name="hoursfinish" type="text" placeholder="Finishing Hour">
                                 <button class="add-button">Add</button>
 
-                        <div class="prev">&#10094;</div>
-                        <div class="next">&#10095;</div>
+                        <a class="prev" href="#">&#10094;</a>
+                        <a class="next" href="#">&#10095;</a>
                         <div class="date">27.11 - 03.12</div>
                     </div>
                     <div class="weekdays">
@@ -99,16 +123,19 @@
                                 <div class="name-day">Pon</div>
                                 <div class="plan">
                                     <div class="blocks" style="top: 0; height: 8.3%;">
-                                        <p>cos</p>
+                                        <p>#SD</p>
+                                        <p>#ANISS</p>
                                     </div>
                                     <div class="blocks" style="top: 50%; height: 5%;">
-                                        <p>cos</p>
+                                        <p>#java</p>
                                     </div>
                                     <div class="blocks" style="top: 57%; height: 10%">
-                                        <p>cos</p>
+                                        <p>#alkohol</p>
+                                        <p>#piwo</p>
                                     </div>
                                     <div class="blocks" style="top: 81%; height: 7%">
-                                        <p>cos</p>
+                                        <p>#cos</p>
+                                        <p>#sin</p>
                                     </div>
                                 </div>
 
@@ -123,7 +150,7 @@
                                 <div class="name-day">Śr</div>
                                 <div class="plan">
                                     <div class="blocks" style="top: 20%; height: 70px;">
-                                        <p>cos</p>
+                                        <p>#ASD</p>
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +171,7 @@
                                 <div class="name-day">So</div>
                                 <div class="plan">
                                     <div class="blocks" style="top: 28%; height: 150px;">
-                                        <p>cos</p>
+                                        <p>#Webowe</p>
                                     </div>
                                 </div>
                             </div>
