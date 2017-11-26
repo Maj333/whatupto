@@ -37,12 +37,12 @@ body {
     float: left;
     cursor: default;
     font-size: 2em;
-    color: #FFFFFF;
     text-decoration: none;
 }
 
 .prev:hover{
-    color: #a6b8a6;
+    color: #2c313a;
+    cursor: pointer;
 }
 
 .next {
@@ -50,12 +50,12 @@ body {
     float: right;
     cursor: default;
     font-size: 2em;
-    color: #FFFFFF;
     text-decoration: none;
 }
 
 .next:hover{
-    color: #a6b8a6;
+    color: #2c313a;
+    cursor: pointer;
 }
 
 .weekdays {
@@ -77,7 +77,6 @@ body {
 
 .blocks {
     padding: 10px;
-    /*margin: 0 2.5% 0 2.5%;*/
     z-index: 100;
     display: block;
     width: 100%;
@@ -202,7 +201,7 @@ body {
 
 .add-button:hover {
     border: 1px solid #ffffff;
-    background-color: #458f41;
+    background-color: #2c313a;
     transform: scale(1.1);
 }
 
@@ -211,3 +210,61 @@ body {
     border-bottom: none;
 }
 
+.chat-window {
+    background-color: #EDFCED;
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    width: 220px;
+    height: 300px;
+    box-shadow: 1px 1px 14px #2b2b2b;
+    border-left: 1px solid #1C492B;
+    border-right: 1px solid #1C492B;
+    margin-bottom: 0;
+    transition: margin 0.5s ease;
+}
+
+.bar {
+    background-color: #1C492B;
+    height: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 0 15px;
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+}
+
+.bar:hover {
+    background-color: #17491B;
+}
+
+.chat-messages {
+    padding: 0 15px 5px 15px;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.chat-message-1 {
+    width: 50%;
+    background-color: #2d7437;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    float: left;
+}
+
+.chat-message-2 {
+    width: 50%;
+    background-color: #293f24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    float: right;
+}
+
+.chat-window-hidden {
+    margin-bottom: -270px;
+}

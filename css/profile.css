@@ -36,6 +36,7 @@
     box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.83);
     color: #EDFCED;
     margin-bottom: 5px;
+    font-family: 'Lobster', sans-serif;
 }
 
 .znajomy-photo {
@@ -99,10 +100,6 @@
 .sidebar-znajomi::-webkit-scrollbar-thumb {
     border-radius: 6px;
     background-color: rgba(45, 116, 55, 0.7);
-}
-
-.center {
-
 }
 
 .menu {
