@@ -32,17 +32,14 @@ Class User {
     }
 
     static public function checkIfCredentialsAreCorrect($username, $password) {
-        echo 'wchodzi';
        /* $safe_username = stripslashes($username);
         $safe_username = trim(mysqli_real_escape_string(connect::$connection, $safe_username));
         $safe_password = stripslashes($password);
         $safe_password = trim(mysqli_real_escape_string(connect::$connection, $safe_password)); // TODO:  hash later :D #security
-        */echo $username;
+        */
 
         $query = mysqli_query(connect::$connection, "SELECT * FROM users WHERE password='$password' AND username='$username'");
         $rows = mysqli_num_rows($query);
-        echo $rows;
-        //return (boolean)$rows;
         if ($rows == 1) {
             return true;
         } else {

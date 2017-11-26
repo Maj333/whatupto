@@ -20,10 +20,13 @@ if (isset($_SESSION['user'])) { // checking if user is logged in
     }
     switch ($action) { // for logged users
         case 'main':
-            include_once("./pages/main.html");
+            include_once("./pages/main.php");
+            break;
+        case 'logout':
+            include_once("./engine/logout.php");
             break;
         default:
-            include_once("./pages/main.html");
+            include_once("./pages/main.php");
             break;
     }
 } else {
@@ -32,18 +35,19 @@ if (isset($_SESSION['user'])) { // checking if user is logged in
     } else {
         $action = 'login';
     }
-}
 
-switch ($action) { // for non-logged
-    case 'login':
-        include_once("./pages/login_form.html");
-        break;
-    case 'register':
-        include_once('./pages/register_form.html');
-        break;
-    default:
-        include_once("./pages/login_form.html");
-        break;
+    switch ($action) { // for non-logged
+        case 'login':
+            include_once("./pages/login_form.html");
+            break;
+        case 'register':
+            include_once('./pages/register_form.html');
+            break;
+        default:
+            include_once("./pages/login_form.html");
+            break;
+    }
+
 }
 ?>
 </body>

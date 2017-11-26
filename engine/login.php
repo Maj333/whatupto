@@ -8,17 +8,16 @@ echo '1';
 
         $error = "Username or Password is invalid";
     } else {
-        echo '2';
         Connect::connectionInit();
-        echo "3";
         if(User::checkIfCredentialsAreCorrect($_POST['username'], $_POST['password'])) {
-            echo 'test';
             session_start();
             $_SESSION['user'] = $_POST['username'];
-            http_redirect('/index.php');
+            header("../index.php");
+            die('Zalogowano. Jesli nie nastapi przekierowanie kliknij <a href="/index.php">tutaj</a>');
         }
         else {
-            echo 'Bad username or password';
+            header("../index.php");
+            die('Logowanie nie powiodlo sie. <a href="/index.php">Sprobuj ponownie</a>.');
         }
 }
 ?>
