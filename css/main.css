@@ -8,13 +8,15 @@
 ul {list-style-type: none;}
 
 .calendar_container{
-    width : 1200px;
+    width : 100%;
+    padding-top: 50px;
 }
 .calendar {
     position: relative;
+
     width: 60%;
     margin: 0 auto;
-    font-size: 12px;
+    font-size: 15px;
     box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.62);
 }
 
@@ -37,14 +39,14 @@ ul {list-style-type: none;}
 
 .week .prev {
     position: relative;
-    top:49%;
+    top:60%;
     float: left;
     padding-left: 10px;
 }
 
 .week .next {
     position: relative;
-    top:49%;
+    top:60%;
     float: right;
     padding-right: 10px;
 }
@@ -81,7 +83,7 @@ ul {list-style-type: none;}
 }
 
 .plan{
-    height: calc(53px*24);
+    height: calc(54px*24);
     border-right: solid 1px gray;
     border-top: solid 1px gray;
 }
@@ -104,40 +106,16 @@ ul {list-style-type: none;}
     padding-top: 20px;
     text-align: center;
     margin-bottom: 1px;
-    font-size:10px;
+    font-size:13px;
     background: #eee;
     color: #1c492b;
     box-shadow: 1px 1px 1px rgba(102, 102, 102, 0.62);
 }
 
-
-/*.hours li ul li{*/
-    /*list-style-type: none;*/
-    /*display: inline-block;*/
-    /*width: 100%;*/
-    /*text-align: center;*/
-    /*margin-bottom: 5px;*/
-    /*font-size:12px;*/
-    /*color: #2bff27;*/
-/*}*/
-
 .hours li .active {
     padding: 5px;
     background: #48ba44;
     color: white !important
-}
-
-@media screen and (max-width:720px) {
-    .weekdays li, .hours li {width: 13.1%;}
-}
-
-@media screen and (max-width: 420px) {
-    .weekdays li, .hours li {width: 12.5%;}
-    .hours li .active {padding: 2px;}
-}
-
-@media screen and (max-width: 290px) {
-    .weekdays li, .hours li {width: 12.2%;}
 }
 
 
@@ -185,4 +163,35 @@ body {
 
 .logo {
     position: relative;
+}
+.calendar_add{
+    padding-top: 10px;
+}
+.add-form {
+    margin: 20px 40px;
+}
+
+.add-field {
+    border-radius: 5px;
+    border: 1px solid #CBCBD2;
+    display: block;
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+.add-button {
+    border-radius: 5px;
+    background-color: #48BA44;
+    border: 1px solid #CBCBD2;
+    width: 50%;
+    padding: 10px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #2D7437;
 }
