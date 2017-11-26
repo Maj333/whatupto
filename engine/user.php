@@ -45,9 +45,11 @@ Class User {
 
     static public function getAllUsers() {
         $query = mysqli_query(connect::$connection, "SELECT username FROM users");
-        if($query){
-            $column = mysqli_fetch_assoc($query);
-        }
+        $column = array();
+        while($row = mysqli_fetch_assoc($query)){
+            array_push($column,$row['username']);
+        };
+
         return $column;
     }
 }
