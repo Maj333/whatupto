@@ -1,3 +1,11 @@
+<?php
+if(!isset($_SESSION['username'])) {
+    header("Location: index.php",true, 301);
+}
+
+$users = user::getAllUsers();
+var_dump($users);
+?>
 <main class="profile-wrapper">
     <div class="main">
         <div class="rawbar">
@@ -11,7 +19,6 @@
                 <img id="user-photo" src="img/andrzej.jpg" alt="profile image">
                 <p class="greeting">Hi <?php echo $_SESSION['username']; ?>, <br/> What are you up to?</p>
             </div>
-
         </div>
         <div class="center">
             <div class="menu">
@@ -181,5 +188,3 @@
         </div>
     </div>
 </main>
-</body>
-</html>
