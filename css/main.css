@@ -1,0 +1,137 @@
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif; background-color: #edfced;}
+
+
+.calendar_container{
+    width : 1200px;
+}
+.calendar {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 12px;
+    box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.62);
+}
+
+.week {
+    display: block;
+    height: 300px;
+    position: relative;
+    width: 100%;
+    background: #2d7437;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.date {
+    position: relative;
+    top:60%;
+    letter-spacing: 2px;
+}
+
+.week .prev {
+    position: relative;
+    top:49%;
+    float: left;
+    padding-left: 10px;
+}
+
+.week .next {
+    position: relative;
+    top:49%;
+    float: right;
+    padding-right: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 1%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+.day{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    width: 13%;
+    text-align: center;
+}
+
+.blocks{
+    padding: 0;
+    margin: 0 2.5% 0 2.5%;
+    display: block;
+    width: 95%;
+    position: absolute;
+    text-align: center;
+    border-radius: 10%;
+    font-size:12px;
+    background: #48ba44;
+    color: #1c492b;
+    box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.62);
+}
+
+.plan{
+    height: calc(53px*24);
+    border-right: solid 1px gray;
+    border-top: solid 1px gray;
+}
+.name + .plan{
+    position: relative;
+}
+.hours {
+    padding: 0;
+    margin: 0;
+    border-left: solid 1px gray;
+}
+
+.hours li {
+    list-style-type: none;
+    display: block;
+    margin: 0 2.5% 0 2.5%;
+    width: 95%;
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 1px;
+    font-size:10px;
+    background: #eee;
+    color: #1c492b;
+    box-shadow: 1px 1px 1px rgba(102, 102, 102, 0.62);
+}
+
+
+/*.hours li ul li{*/
+    /*list-style-type: none;*/
+    /*display: inline-block;*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+    /*margin-bottom: 5px;*/
+    /*font-size:12px;*/
+    /*color: #2bff27;*/
+/*}*/
+
+.hours li .active {
+    padding: 5px;
+    background: #48ba44;
+    color: white !important
+}
+
+@media screen and (max-width:720px) {
+    .weekdays li, .hours li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .hours li {width: 12.5%;}
+    .hours li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .hours li {width: 12.2%;}
+}
