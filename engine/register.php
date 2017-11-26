@@ -2,9 +2,6 @@
 require_once('connect.php');
 require_once('user.php');
 
-error_reporting(-1);
-ini_set('display_errors', 'On');
-
 if (!empty($_POST)) { // jesli cos zostalo przeslane
     if (isset($_POST['username']) && isset($_POST['password']) && isset($_POST['password_r'])) {
         //register:
