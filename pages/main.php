@@ -34,7 +34,6 @@
                         echo "<div class=\"box\">
                         <a href=\"http://whatuptoo.herokuapp.com/\"><img class=\"znajomy-photo\" src=\"https://microbitpolska.org/static/img/profile.png\"></a>
                         <p class=\"name\">".$user."</p>
-                        <img class=\"circle-nieakt\" src=\"img/red.png\" alt=\"nieaktywny\">
                     </div>";
                     }
                     
@@ -45,34 +44,27 @@
                     <div class="box">
                         <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
                         <p class="name">znajomy</p>
-                        <img class="circle-akt" src="img/green.png" alt="aktywny">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="right">
-            <div class="calendar_container">
                 <div class="calendar">
-                    <div class="week">
-                        <div class="calendar_add">
+                    <div class="calendar-header">
                             <h1 class="add-title">Update your calendar with plans</h1>
 
                                 <input class="add-field" name="action-tag" type="text" placeholder="Tags">
                                 <input class="add-field" name="day-of-the-week" type="text" placeholder="Weekday">
-                                <input class="add-field" name="hoursstart" type="text" placeholder="Starting Hour">
-                                <input class="add-field" name="hoursfinish" type="text" placeholder="Finishing Hour">
+                                <input class="add-field" name="hours" type="text" placeholder="Starting Hour">
+                                <input class="add-field" name="hours" type="text" placeholder="Finishing Hour">
                                 <button class="add-button">Add</button>
 
-                        </div>
-                        <div class="prev"><p>&#10094;</p></div>
-                        <div class="next"><p>&#10095;</p></div>
-                        <div class="date">
-                            <p>27.11-03.12</p>
-                        </div>
+                        <div class="prev">&#10094;</div>
+                        <div class="next">&#10095;</div>
+                        <div class="date">27.11 - 03.12</div>
                     </div>
                     <div class="weekdays">
                         <div class ="day">
-                            <div class="name"><p>Godziny</p></div>
+                            <div class="name-day">Godziny</div>
                             <div class="plan">
                                 <ul class="hours">
                                     <li>0:00-1:00</li>
@@ -104,9 +96,9 @@
                         </div>
 
                             <div class ="day">
-                                <div class="name"><p>Pon</p></div>
+                                <div class="name-day">Pon</div>
                                 <div class="plan">
-                                    <div class="blocks" style="top: 0%; height: 8.3%;">
+                                    <div class="blocks" style="top: 0; height: 8.3%;">
                                         <p>cos</p>
                                     </div>
                                     <div class="blocks" style="top: 50%; height: 5%;">
@@ -122,13 +114,13 @@
 
                             </div>
                             <div class ="day">
-                                <div class="name"><p>Wt</p></div>
+                                <div class="name-day">Wt</div>
                                 <div class="plan">
                                 </div>
                             </div>
 
                             <div class ="day">
-                                <div class="name"><p>Śr</p></div>
+                                <div class="name-day">Śr</div>
                                 <div class="plan">
                                     <div class="blocks" style="top: 20%; height: 70px;">
                                         <p>cos</p>
@@ -137,19 +129,19 @@
                             </div>
 
                             <div class ="day">
-                                <div class="name"><p>Czw</p></div>
+                                <div class="name-day">Czw</div>
                                 <div class="plan">
                                 </div>
                             </div>
 
                             <div class ="day">
-                                <div class="name"><p>Pt</p></div>
+                                <div class="name-day">Pt</div>
                                 <div class="plan">
                                 </div>
                             </div>
 
                             <div class ="day">
-                                <div class="name"><p>So</p></div>
+                                <div class="name-day">So</div>
                                 <div class="plan">
                                     <div class="blocks" style="top: 28%; height: 150px;">
                                         <p>cos</p>
@@ -158,17 +150,11 @@
                             </div>
 
                             <div class ="day">
-                                <div class="name"><p>Nd</p></div>
+                                <div class="name-day">Nd</div>
                                 <div class="plan">
                                 </div>
                             </div>
-
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
 </main>
-</body>
-</html>
