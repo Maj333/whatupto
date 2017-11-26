@@ -87,6 +87,7 @@ body {
     background-color: #1c492b;
     color: #EDFCED;
     box-sizing: border-box;
+    border: 2px dashed #5da525;
 }
 .hidden{
     display: none;
@@ -283,4 +284,14 @@ body {
     border: none;
     border-top: 1px solid #2c313a;
     padding: 5px;
+}
+
+.tags_names {
+    width: 100%;
+    border: none;
+    background: transparent;
+}
+
+.tags_names::placeholder{
+    color: #FFFFFF;
 }

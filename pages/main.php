@@ -43,31 +43,31 @@
                 <div class="sidebar-znajomi">
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="chat_name">unknown user</p>
+                        <p class="chat_name">Grzegorz Tluszcz</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="chat_name">unknown user</p>
+                        <p class="chat_name">Paulina Kaplon</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="chat_name">unknown user</p>
+                        <p class="chat_name">Maja Gruca</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="chat_name">unknown user</p>
+                        <p class="chat_name">Ignacy Radlinski</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="chat_name">unknown user</p>
+                        <p class="chat_name">Agnieszka Miszkurka</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="chat_name">unknown user</p>
+                        <p class="chat_name">Zofia Owsiak</p>
                     </a>
                     <a class="box" href="#">
                         <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
-                        <p class="chat_name">unknown user</p>
+                        <p class="chat_name">Karol Piwnicki</p>
                     </a>
                 </div>
             </div>
@@ -139,7 +139,7 @@
             <li class="chat-message-1">Do we even have what it takes to present it?</li>
             <li class="chat-message-2">oh, u're right...</li>
             <li class="chat-message-1">I want to go to bed</li>
-            <li class="chat-message-2">oh cmoo'n, lets coooodeeee...</li>
+            <li class="chat-message-2">oh c'mon, lets coooodeeee...</li>
             <li class="chat-message-1">yea, sure...</li>
         </ul>
         <input class="write-message" type="text" placeholder="Type message...">
