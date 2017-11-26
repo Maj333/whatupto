@@ -74,13 +74,13 @@
         </div>
         <div class="calendar">
             <div class="calendar-header">
-                <h1 class="add-title">Update your calendar with plans</h1>
+                <h2 class="add-title">Update your calendar with plans</h2>
 
                 <input class="add-field" name="action-tag" type="text" placeholder="Tags">
                 <input class="add-field" name="day-of-the-week" type="text" placeholder="Weekday">
                 <input class="add-field" name="hoursstart" type="text" placeholder="Starting Hour">
                 <input class="add-field" name="hoursfinish" type="text" placeholder="Finishing Hour">
-                <button class="add-button">Add</button>
+                <button class="add-button">Add block</button>
 
                 <a class="prev" href="#">&#10094;</a>
                 <a class="next" href="#">&#10095;</a>
