@@ -31,7 +31,7 @@ body {
     max-width: 400px;
     margin: 0 auto;
     border-radius: 5px;
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 .register-form {
@@ -68,5 +68,21 @@ body {
     color: #48BA44;
     font-size: 2em;
     margin-bottom: 20px;
+}
+
+.login-link {
+    text-align: center;
+    border-top: 1px solid #DDDDDD;
+    padding: 20px 0;
+    font-size: 1.3em;
+}
+
+.login-link a {
+    text-decoration: none;
+    color: #48BA44;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
 }
 
