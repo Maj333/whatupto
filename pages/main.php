@@ -14,7 +14,7 @@
 <div class="main">
     <div class="rawbar">
         <div class="logo">
-            <a href="http://whatuptoo.herokuapp.com/">
+            <a href="index.php">
                 <div id="logo-img"></div>
             </a>
             <p class="logo-name">WhatUpTo</p>
@@ -27,46 +27,46 @@
     </div>
     <div class="center">
         <div class="menu">
-            <a href="http://whatuptoo.herokuapp.com/"><img class="setting" src="../img/setting.png"></a>
-            <a href="http://whatuptoo.herokuapp.com/"><img class="log-out" src="../img/log-out.png"></a>
+            <a href="index.php?action=settings"><img class="setting" src="img/setting.png"></a>
+            <a href="index.php?action=logout"><img class="log-out" src="img/log-out.png"></a>
         </div>
         <div class="sidebar">
             <div class="box-h1">ZNAJOMI</div>
             <div class="sidebar-znajomi">
             <div class="box">
                 <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                <p class="name">znajomy<br/></p>
+                <p class="name">znajomy</p>
             </div>
                 <div class="box">
                     <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
+                    <p class="name">znajomy</p>
                 </div>
                 <div class="box">
                     <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
+                    <p class="name">znajomy</p>
                 </div>
             </div>
             <div class="box-h1">INNI UŻYTKOWNICY</div>
             <div class="sidebar-znajomi">
                 <div class="box">
                     <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
+                    <p class="name">znajomy</p>
                 </div>
                 <div class="box">
                     <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
+                    <p class="name">znajomy</p>
                 </div>
                 <div class="box">
                     <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
+                    <p class="name">znajomy</p>
                 </div>
                 <div class="box">
                     <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
+                    <p class="name">znajomy</p>
                 </div>
                 <div class="box">
                     <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
+                    <p class="name">znajomy</p>
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
                 <div class="calendar">
                     <div class="week">
                         <div class="calendar_add">
-                            <form class="add-form" action="" method="">
+                            <form class="add-form" action="" method="POST">
                                 <input class="add-field" name="action-tag" type="text" placeholder="Tags">
                                 <input class="add-field" name="day-of-the-week" type="text" placeholder="Date">
                                 <button class="add-button" type="submit">Add</button>
