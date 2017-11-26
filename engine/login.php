@@ -1,9 +1,6 @@
 <?php
 require_once ('user.php');
 require_once ('connect.php');
-session_start(); // Starting Session
-$error = ''; // Variable To Store Error Message
-echo '1';
     if (!isset($_POST['username']) || !isset($_POST['password'])) {
 
         $echo = "Username or Password is invalid";
