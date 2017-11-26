@@ -13,7 +13,7 @@
 <?php
 error_reporting(-1);
 ini_set('display_errors', 'On');
-
+session_start();
 if (isset($_SESSION['username'])) { // checking if user is logged in
     if (isset($_GET['action'])) { // checking if any action
         $action = $_GET['action'];

@@ -1,10 +1,6 @@
 <?php
-if(!isset($_SESSION['username'])) {
-    header("Location: index.php",true, 301);
-}
-
-$users = user::getAllUsers();
-var_dump($users);
+//$users = user::getAllUsers();
+//var_dump($users);
 ?>
 <main class="profile-wrapper">
     <div class="main">
@@ -17,7 +13,7 @@ var_dump($users);
             </div>
             <div class="user">
                 <img id="user-photo" src="img/andrzej.jpg" alt="profile image">
-                <p class="greeting">Hi <?php echo $_SESSION['username']; ?>, <br/> What are you up to?</p>
+                <p class="greeting">Hi <?php echo $_SESSION['username']; ?>, what are you up to?</p>
             </div>
         </div>
         <div class="center">
