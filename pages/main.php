@@ -27,22 +27,7 @@
                     <div class="box">
                         <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
                         <p class="name">znajomy</p>
-                        <div class="circle-akt"></div>
-                    </div>
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                        <div class="circle-akt"></div>
-                    </div>
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                        <div class="circle-nieakt"></div>
-                    </div>
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                        <div class="circle-nieakt"></div>
+                        <img src="../img/red.png" alt="green">
                     </div>
                 </div>
                 <div class="box-h1">INNI UŻYTKOWNICY</div>
@@ -50,27 +35,7 @@
                     <div class="box">
                         <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
                         <p class="name">znajomy</p>
-                        <div class="circle-akt"></div>
-                    </div>
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                        <div class="circle-akt"></div>
-                    </div>
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                        <div class="circle-akt"></div>
-                    </div>
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                        <div class="circle-nieakt"></div>
-                    </div>
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                        <div class="circle-nieakt"></div>
+                        <img src="../img/green.png" alt="green">
                     </div>
                 </div>
             </div>
