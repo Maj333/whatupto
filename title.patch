@@ -1,0 +1,16 @@
+Index: pages/main.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pages/main.html	(revision 512895da374f1140fb7499d3c67dd1d86f1135eb)
++++ pages/main.html	(revision )
+@@ -2,7 +2,7 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+-    <title>Title</title>
++    <title>WhatUpTo</title>
+     <link rel="stylesheet" title="base"
+           href="..\css\main.css" type="text/css" />
+     <link rel="stylesheet" title="base"
