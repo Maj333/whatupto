@@ -102,8 +102,8 @@ body {
     position: absolute;
     right: 0;
     background-color: rgb(45, 116, 55);
-    width: 8%;
-    height: 30%;
+    width: 100px;
+    height: 200px;
     border-bottom-left-radius: 300px;
 }
 .setting{

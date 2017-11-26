@@ -26,7 +26,10 @@
 
     </div>
     <div class="center">
-        <div class="menu"></div>
+        <div class="menu">
+            <a href="http://whatuptoo.herokuapp.com/"><img class="setting" src="../img/setting.png"></a>
+            <a href="http://whatuptoo.herokuapp.com/"><img class="log-out" src="../img/log-out.png"></a>
+        </div>
         <div class="sidebar">
             <div class="box-h1">ZNAJOMI</div>
             <div class="sidebar-znajomi">
