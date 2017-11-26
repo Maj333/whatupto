@@ -87,7 +87,7 @@ body {
     background-color: #1c492b;
     color: #EDFCED;
     box-sizing: border-box;
-    border: 2px dashed #5da525;
+    border: 4px dashed #5da525;
 }
 .hidden{
     display: none;
