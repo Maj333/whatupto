@@ -23,8 +23,10 @@
             <img id="user-photo" src="https://frieze.com/sites/default/files/styles/general_teaser/public/editorial/johann-by-lukas-gansterer_thumb.jpg?itok=b_TNccXw">
             <p class="greeting">HI <?php $_SESSION['username'] ?>, <br/> WHAT ARE YOU UP TO?</p>
         </div>
+
     </div>
     <div class="center">
+        <div class="menu"></div>
         <div class="sidebar">
             <div class="box-h1">ZNAJOMI</div>
             <div class="sidebar-znajomi">
