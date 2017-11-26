@@ -31,7 +31,7 @@ body {
     max-width: 400px;
     margin: 0 auto;
     border-radius: 5px;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 .register-form {
@@ -55,6 +55,11 @@ body {
     width: 100%;
     padding: 10px 5px;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #2D7437;
 }
 
 .register-title {
