@@ -13,7 +13,6 @@ body {
     width: 60%;
     margin: 50px auto 0 auto;
     font-size: 1.2em;
-    background: #2d7437;
     border-radius: 10px;
 }
 
@@ -21,6 +20,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    background: #2d7437;
     color: #FFFFFF;
 }
 
@@ -33,13 +33,29 @@ body {
 }
 
 .prev {
+    color: #EDFCED;
     float: left;
+    cursor: default;
     font-size: 2em;
+    text-decoration: none;
+}
+
+.prev:hover{
+    color: #2c313a;
+    cursor: pointer;
 }
 
 .next {
+    color: #EDFCED;
     float: right;
+    cursor: default;
     font-size: 2em;
+    text-decoration: none;
+}
+
+.next:hover{
+    color: #2c313a;
+    cursor: pointer;
 }
 
 .weekdays {
@@ -47,34 +63,30 @@ body {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 0;
-    background-color: #ddd;
+    background-color: #DDDDDD;
     display: flex;
     flex-direction: row;
-    position: relative;
-
 }
 
 .day {
     display: flex;
     flex-direction: column;
-    position: relative;
     width: 13%;
     text-align: center;
 }
 
 .blocks {
-    padding: 0;
-    /*margin: 0 2.5% 0 2.5%;*/
+    padding: 10px;
     z-index: 100;
     display: block;
     width: 100%;
     position: absolute;
     text-align: center;
     border-radius: 6px;
-    font-size: 12px;
-    background: #48ba44;
-    color: #1c492b;
     overflow: hidden;
+    background-color: #1c492b;
+    color: #EDFCED;
+    box-sizing: border-box;
 }
 .hidden{
     display: none;
@@ -101,26 +113,23 @@ body {
     margin: 0 2.5%;
     width: 95%;
     position: relative;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px 0;
     text-align: center;
-    margin-bottom: 1px;
     font-size: 13px;
-    background: #eee;
-    color: #1c492b;
-    box-shadow: 1px 1px 1px rgba(102, 102, 102, 0.62);
+    background: #EEEEEE;
+    color: #1C492B;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.62);
 }
 
 .hours li .active {
     padding: 5px;
     background: #48ba44;
-    color: white !important
+    color: white
 }
 
 .nonlogin-wrapper {
     background-color: #2D7437;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 0;
 }
 
 .rawbar {
@@ -184,14 +193,91 @@ body {
 
 .add-button {
     border-radius: 5px;
-    background-color: #48BA44;
-    border: 1px solid #393f47;
+    background-color: #48ba44;
+    border: 1px solid #225a22;
     width: 30%;
     padding: 10px 5px;
     color: #FFFFFF;
     cursor: pointer;
+    transition: linear 0.4s;
 }
 
 .add-button:hover {
-    background-color: #1e4120;
+    border: 1px solid #ffffff;
+    background-color: #2c313a;
+    transform: scale(1.1);
+}
+
+.hours li:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom: none;
+}
+
+.chat-window {
+    background-color: #EDFCED;
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    width: 220px;
+    height: 300px;
+    box-shadow: 1px 1px 14px #2b2b2b;
+    border-left: 1px solid #1C492B;
+    border-right: 1px solid #1C492B;
+    transition: margin 0.5s ease;
+}
+
+.bar {
+    background-color: #1C492B;
+    height: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 0 15px;
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+}
+
+.bar:hover {
+    background-color: #17491B;
+}
+
+.chat-messages {
+    padding: 0 15px 5px 15px;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.chat-message-1 {
+    width: 50%;
+    background-color: #2d7437;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    float: left;
+}
+
+.chat-message-2 {
+    width: 50%;
+    background-color: #293f24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    float: right;
+}
+
+.chat-window-hidden {
+    margin-bottom: -270px;
+}
+
+.write-message {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-top: 1px solid #2c313a;
+    padding: 5px;
 }

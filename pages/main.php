@@ -22,7 +22,7 @@
                 <a href="index.php?action=logout"><img class="log-out" src="img/log-out.png"></a>
             </div>
             <div class="sidebar">
-                <div class="box-h1">ZNAJOMI</div>
+                <div class="box-h1">Friends</div>
                 <div class="sidebar-znajomi">
 
                     <?php
@@ -30,70 +30,94 @@
                     require_once "engine/user.php";
                     connect::connectionInit();
                     $lol = user::getAllUsers();
-                    foreach($lol as $user){
-                        echo "<div class=\"box\">
-                        <a href=\"http://whatuptoo.herokuapp.com/\"><img class=\"znajomy-photo\" src=\"https://microbitpolska.org/static/img/profile.png\"></a>
-                        <p class=\"name\">".$user."</p>
-                    </div>";
+                    foreach ($lol as $user) {
+                        echo "<a href=\"#\" class=\"box\">
+                        <img class=\"znajomy-photo\" src=\"https://microbitpolska.org/static/img/profile.png\">
+                        <p class=\"chat_name\">" . $user . "</p>
+                    </a>";
                     }
-                    
+
                     ?>
                 </div>
-                <div class="box-h1">INNI UŻYTKOWNICY</div>
+                <div class="box-h1">Other users</div>
                 <div class="sidebar-znajomi">
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                    </div>
+                    <a class="box" href="#">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="chat_name">unknown user</p>
+                    </a>
+                    <a class="box" href="#">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="chat_name">unknown user</p>
+                    </a>
+                    <a class="box" href="#">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="chat_name">unknown user</p>
+                    </a>
+                    <a class="box" href="#">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="chat_name">unknown user</p>
+                    </a>
+                    <a class="box" href="#">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="chat_name">unknown user</p>
+                    </a>
+                    <a class="box" href="#">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="chat_name">unknown user</p>
+                    </a>
+                    <a class="box" href="#">
+                        <img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png">
+                        <p class="chat_name">unknown user</p>
+                    </a>
                 </div>
             </div>
         </div>
-                <div class="calendar">
-                    <div class="calendar-header">
-                            <h1 class="add-title">Update your calendar with plans</h1>
+        <div class="calendar">
+            <div class="calendar-header">
+                <h2 class="add-title">Update your calendar with plans</h2>
 
-                                <input class="add-field" name="action-tag" type="text" placeholder="Tags">
-                                <input class="add-field" name="day-of-the-week" type="text" placeholder="Weekday">
-                                <input class="add-field" name="hoursstart" type="text" placeholder="Starting Hour">
-                                <input class="add-field" name="hoursfinish" type="text" placeholder="Finishing Hour">
-                                <button class="add-button">Add</button>
+                <input class="add-field" name="action-tag" type="text" placeholder="Tags">
+                <input class="add-field" name="day-of-the-week" type="text" placeholder="Weekday">
+                <input class="add-field" name="hoursstart" type="text" placeholder="Starting Hour">
+                <input class="add-field" name="hoursfinish" type="text" placeholder="Finishing Hour">
+                <button class="add-button">Add block</button>
 
-                        <div class="prev">&#10094;</div>
-                        <div class="next">&#10095;</div>
-                        <div class="date">27.11 - 03.12</div>
+                <a class="prev" href="#">&#10094;</a>
+                <a class="next" href="#">&#10095;</a>
+                <div class="date">27.11 - 03.12</div>
+            </div>
+            <div class="weekdays">
+                <div class="day">
+                    <div class="name-day">Hours</div>
+                    <div class="plan">
+                        <ul class="hours">
+                            <li>0:00-1:00</li>
+                            <li>1:00-2:00</li>
+                            <li>2:00-3:00</li>
+                            <li>3:00-4:00</li>
+                            <li>4:00-5:00</li>
+                            <li>5:00-6:00</li>
+                            <li>6:00-7:00</li>
+                            <li>7:00-8:00</li>
+                            <li>8:00-9:00</li>
+                            <li>9:00-10:00</li>
+                            <li>10:00-11:00</li>
+                            <li>11:00-12:00</li>
+                            <li>12:00-13:00</li>
+                            <li>13:00-14:00</li>
+                            <li>14:00-15:00</li>
+                            <li>15:00-16:00</li>
+                            <li>16:00-17:00</li>
+                            <li>17:00-18:00</li>
+                            <li>18:00-19:00</li>
+                            <li>19:00-20:00</li>
+                            <li>20:00-21:00</li>
+                            <li>21:00-22:00</li>
+                            <li>22:00-23:00</li>
+                            <li>23:00-24:00</li>
+                        </ul>
                     </div>
-                    <div class="weekdays">
-                        <div class ="day">
-                            <div class="name-day">Godziny</div>
-                            <div class="plan">
-                                <ul class="hours">
-                                    <li>0:00-1:00</li>
-                                    <li>1:00-2:00</li>
-                                    <li>2:00-3:00</li>
-                                    <li>3:00-4:00</li>
-                                    <li>4:00-5:00</li>
-                                    <li>5:00-6:00</li>
-                                    <li>6:00-7:00</li>
-                                    <li>7:00-8:00</li>
-                                    <li>8:00-9:00</li>
-                                    <li>9:00-10:00</li>
-                                    <li>10:00-11:00</li>
-                                    <li>11:00-12:00</li>
-                                    <li>12:00-13:00</li>
-                                    <li>13:00-14:00</li>
-                                    <li>14:00-15:00</li>
-                                    <li>15:00-16:00</li>
-                                    <li>16:00-17:00</li>
-                                    <li>17:00-18:00</li>
-                                    <li>18:00-19:00</li>
-                                    <li>19:00-20:00</li>
-                                    <li>20:00-21:00</li>
-                                    <li>21:00-22:00</li>
-                                    <li>22:00-23:00</li>
-                                    <li>23:00-24:00</li>
-                                </ul>
-                            </div>
-                        </div>
+                </div>
 
                             <?php  include 'engine/plan.php';?>
 
