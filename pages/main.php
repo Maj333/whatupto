@@ -25,17 +25,17 @@
                 <div class="box-h1">ZNAJOMI</div>
                 <div class="sidebar-znajomi">
                     <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
+                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo"
+                                                                       src="https://microbitpolska.org/static/img/profile.png"></a>
                         <p class="name">znajomy</p>
-                        <img class="circle-nieakt" src="img/red.png" alt="nieaktywny">
                     </div>
                 </div>
                 <div class="box-h1">INNI UŻYTKOWNICY</div>
                 <div class="sidebar-znajomi">
                     <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
+                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo"
+                                                                       src="https://microbitpolska.org/static/img/profile.png"></a>
                         <p class="name">znajomy</p>
-                        <img class="circle-akt" src="img/green.png" alt="aktywny">
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                     <div class="weekdays">
-                        <div class ="day">
+                        <div class="day">
                             <div class="name"><p>Godziny</p></div>
                             <div class="plan">
                                 <ul class="hours">
@@ -89,7 +89,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class ="day">
+                        <div class="day">
                             <div class="name"><p>Pon</p></div>
                             <div class="plan">
                                 <div class="blocks" style="top: 0%; height: 8.3%;">
@@ -107,13 +107,13 @@
                             </div>
 
                         </div>
-                        <div class ="day">
+                        <div class="day">
                             <div class="name"><p>Wt</p></div>
                             <div class="plan">
                             </div>
                         </div>
 
-                        <div class ="day">
+                        <div class="day">
                             <div class="name"><p>Śr</p></div>
                             <div class="plan">
                                 <div class="blocks" style="top: 20%; height: 70px;">
@@ -122,19 +122,19 @@
                             </div>
                         </div>
 
-                        <div class ="day">
+                        <div class="day">
                             <div class="name"><p>Czw</p></div>
                             <div class="plan">
                             </div>
                         </div>
 
-                        <div class ="day">
+                        <div class="day">
                             <div class="name"><p>Pt</p></div>
                             <div class="plan">
                             </div>
                         </div>
 
-                        <div class ="day">
+                        <div class="day">
                             <div class="name"><p>So</p></div>
                             <div class="plan">
                                 <div class="blocks" style="top: 28%; height: 150px;">
@@ -143,7 +143,7 @@
                             </div>
                         </div>
 
-                        <div class ="day">
+                        <div class="day">
                             <div class="name"><p>Nd</p></div>
                             <div class="plan">
                             </div>
@@ -153,7 +153,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
 </main>
 </body>
 </html>
