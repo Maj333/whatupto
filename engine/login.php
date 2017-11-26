@@ -13,11 +13,11 @@ echo '1';
             session_start();
             $_SESSION['user'] = $_POST['username'];
             header("../index.php");
-            die('Zalogowano. Jesli nie nastapi przekierowanie kliknij <a href="/index.php">tutaj</a>');
+            die('Zalogowano. Jesli nie nastapi przekierowanie kliknij <a href="../index.php">tutaj</a>');
         }
         else {
             header("../index.php");
-            die('Logowanie nie powiodlo sie. <a href="/index.php">Sprobuj ponownie</a>.');
+            die('Logowanie nie powiodlo sie. <a href="../index.php">Sprobuj ponownie</a>.');
         }
 }
 ?>

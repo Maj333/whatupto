@@ -1,24 +1,16 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../css/register.css">
-    <title>whatupto</title>
-</head>
-<body>
-<h1 class="register-logo"><img src="../img/loga.png" alt="logo"><span>What Up To</span></h1>
-<div class="register-wrapper">
-    <h2 class="register-title">Create new account</h2>
-    <form class="register-form" action="../engine/register.php" method="POST">
-        <input class="register-field" type="text" placeholder="Login">
-        <input class="register-field" type="password" placeholder="Password">
-        <input class="register-field" type="password" placeholder="Retype password">
-        <button class="register-button" type="submit">Sign up!</button>
-    </form>
-</div>
-</body>
-</html>
+<main class="nonlogin-wrapper">
+    <h1 class="register-logo"><img src="img/loga.png" alt="logo"><span>What Up To</span></h1>
+    <div class="register-wrapper">
+        <h2 class="register-title">Create new account</h2>
+        <form class="register-form" action="engine/register.php" method="POST">
+            <input class="register-field" name="username" type="text" placeholder="Username">
+            <input class="register-field" name="email" type="email" placeholder="E-mail">
+            <input class="register-field" type="password" name="password" placeholder="Password">
+            <input class="register-field" type="password" name="password_r" placeholder="Retype password">
+            <button class="register-button" type="submit">Sign up!</button>
+        </form>
+        <div class="register-link">
+            <span>Already own an account? <a href="index.php?action=login">Log In!</a></span>
+        </div>
+    </div>
+</main>

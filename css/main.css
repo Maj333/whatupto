@@ -144,6 +144,16 @@ ul {list-style-type: none;}
 body {
     /*background-color: #EDFCED;*/
     font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+
+.nonlogin-wrapper {
+    background-color: #2D7437;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .rawbar {
