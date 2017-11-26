@@ -125,9 +125,9 @@
         </div>
     </div>
     <div class="chat-window">
-        <a class="bar" href="#">
+        <div class="bar">
             John Kowalsky
-        </a>
+        </div>
 
         <ul class="chat-messages">
             <li class="chat-message-1">hello, whats up?</li>

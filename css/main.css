@@ -236,10 +236,12 @@ body {
     font-weight: 700;
     display: block;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .bar:hover {
     background-color: #17491B;
+    cursor: pointer;
 }
 
 .chat-messages {
