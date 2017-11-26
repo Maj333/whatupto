@@ -14,6 +14,10 @@ $( document ).ready(function() {
         $(".chat-window").toggleClass("chat-window-hidden");
     })
 
+    $(".box").click(function () {
+        $(".chat-window").removeClass("chat-window-hidden");
+    })
+
     $(".add-button").click(function () {
         var tags = $('input[name=action-tag]').val();
         var start = $('input[name=hoursstart]').val();
