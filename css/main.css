@@ -56,7 +56,6 @@ body {
 
 .weekdays {
     margin: 0;
-    padding: 1%;
     background-color: #ddd;
     display: flex;
     flex-direction: row;
@@ -74,9 +73,10 @@ body {
 
 .blocks {
     padding: 0;
-    margin: 0 2.5% 0 2.5%;
+    /*margin: 0 2.5% 0 2.5%;*/
+    z-index: 100;
     display: block;
-    width: 95%;
+    width: 100%;
     position: absolute;
     text-align: center;
     border-radius: 6px;
