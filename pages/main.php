@@ -1,5 +1,5 @@
 <?php
-//$users = user::getAllUsers();
+//$users = User::getAllUsers();
 //var_dump($users);
 ?>
 <main class="profile-wrapper">
@@ -27,7 +27,7 @@
                     <div class="box">
                         <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
                         <p class="name">znajomy</p>
-                        <img src="../img/red.png" alt="green">
+                        <img class="circle-nieakt" src="img/red.png" alt="nieaktywny">
                     </div>
                 </div>
                 <div class="box-h1">INNI UŻYTKOWNICY</div>
@@ -35,15 +35,12 @@
                     <div class="box">
                         <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
                         <p class="name">znajomy</p>
-                        <img src="../img/green.png" alt="green">
+                        <img class="circle-akt" src="img/green.png" alt="aktywny">
                     </div>
                 </div>
             </div>
         </div>
         <div class="right">
-            <div class="search_container">
-
-            </div>
             <div class="calendar_container">
                 <div class="calendar">
                     <div class="week">
@@ -157,6 +154,6 @@
         </div>
     </div>
 </div>
-
+</main>
 </body>
 </html>

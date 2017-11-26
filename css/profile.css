@@ -17,11 +17,11 @@
 .box {
     border-radius: 6px;
     display: flex;
-    justify-content: space-around;
-    padding: 6.6px;
     background-color: #EDFCED;
     box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.83);
     margin-bottom: 5px;
+    height: 35px;
+    position: relative;
 }
 
 .box-h1 {
@@ -32,12 +32,34 @@
     padding: 10px;
     background-color: #2D7437;
     box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.83);
-    color:#EDFCED ;margin-bottom: 5px;
+    color: #EDFCED;
+    margin-bottom: 5px;
 }
 
 .name {
-    line-height: 300%;
+    line-height: 35px;
     color: #2D7437;
+}
+
+.circle-akt {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #48BA44;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+.circle-nieakt {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(235, 15, 13, 0.87);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
 }
 
 .greeting {
@@ -77,20 +99,6 @@
     width: 30px;
     height: 30px;
     margin-top: 10%;
-}
-.circle-akt{
-    margin-top: 15px;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    background-color: #48BA44;
-}
-.circle-nieakt{
-    margin-top: 15px;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    background-color: rgba(235, 15, 13, 0.87);
 }
 
 .sidebar-znajomi::-webkit-scrollbar-track {
