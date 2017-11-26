@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>WhatUpTo</title>
-    <link rel="stylesheet" title="base"
-          href="..\css\main.css" type="text/css"/>
-    <link rel="stylesheet" title="base"
-          href="..\css\profile.css" type="text/css"/>
-    <link rel="shortcut icon" href="../img/favicon.ico">
-</head>
-<body>
 <main class="profile-wrapper">
     <div class="main">
         <div class="rawbar">
