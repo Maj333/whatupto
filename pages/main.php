@@ -24,11 +24,21 @@
             <div class="sidebar">
                 <div class="box-h1">ZNAJOMI</div>
                 <div class="sidebar-znajomi">
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                        <img class="circle-nieakt" src="img/red.png" alt="nieaktywny">
-                    </div>
+
+                    <?php
+                    require_once "engine/connect.php";
+                    require_once "engine/user.php";
+                    connect::connectionInit();
+                    $lol = user::getAllUsers();
+                    foreach($lol as $user){
+                        echo "<div class=\"box\">
+                        <a href=\"http://whatuptoo.herokuapp.com/\"><img class=\"znajomy-photo\" src=\"https://microbitpolska.org/static/img/profile.png\"></a>
+                        <p class=\"name\">".$user."</p>
+                        <img class=\"circle-nieakt\" src=\"img/red.png\" alt=\"nieaktywny\">
+                    </div>";
+                    }
+                    
+                    ?>
                 </div>
                 <div class="box-h1">INNI UŻYTKOWNICY</div>
                 <div class="sidebar-znajomi">
