@@ -11,6 +11,7 @@
 </head>
 <body>
 <?php
+include_once("./engine/user.php");
 error_reporting(-1);
 ini_set('display_errors', 'On');
 session_start();

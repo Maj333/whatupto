@@ -1,5 +1,5 @@
 <?php
-//$users = user::getAllUsers();
+//$users = User::getAllUsers();
 //var_dump($users);
 ?>
 <main class="profile-wrapper">
