@@ -138,9 +138,9 @@ body {
 .logo-name {
     float: left;
     color: #EDFCED;
-    line-height: 250%;
+    line-height: 220%;
     font-family: 'Lobster', cursive;
-    font-size: 200%;
+    font-size: 3em;
 
 }
 
