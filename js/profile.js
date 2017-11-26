@@ -10,6 +10,10 @@ $( document ).ready(function() {
 
     });
 
+    $(".bar").click(function () {
+        $(".chat-window").toggleClass("chat-window-hidden");
+    })
+
     $(".add-button").click(function () {
         var tags = $('input[name=action-tag]').val();
         var start = $('input[name=hoursstart]').val();
