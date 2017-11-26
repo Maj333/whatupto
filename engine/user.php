@@ -43,9 +43,11 @@ Class User {
         }
     }
 
-    /*static public function getAllUsers() {
+    static public function getAllUsers() {
         $query = mysqli_query(connect::$connection, "SELECT username FROM users");
-        $rows = mysqli_fetch_assoc($query);
-        return $rows;
-    }*/
+        if($query){
+            $column = mysqli_fetch_assoc($query);
+        }
+        return $column;
+    }
 }

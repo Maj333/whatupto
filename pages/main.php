@@ -1,87 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>WhatUpTo</title>
-    <link rel="stylesheet" title="base"
-          href="..\css\jquery-ui.min.css" type="text/css"/>
-    <link rel="stylesheet" title="base"
-          href="..\css\jquery-ui.theme.css" type="text/css"/>
-    <link rel="stylesheet" title="base"
-          href="..\css\main.css" type="text/css"/>
-    <link rel="stylesheet" title="base"
-          href="..\css\profile.css" type="text/css"/>
-    <link rel="shortcut icon" href="../img/favicon.ico">
-
-    <script type="text/javascript" src="..\js\jquery.js"></script>
-    <script type="text/javascript" src="..\js\jquery-ui.min.js"></script>
-    <script type="text/javascript" src="..\js\profile.js"></script>
-</head>
-<body>
-
-<div class="main">
-    <div class="rawbar">
-        <div class="logo">
-            <a href="http://whatuptoo.herokuapp.com/">
-                <div id="logo-img"></div>
-            </a>
-            <p class="logo-name">WhatUpTo</p>
-        </div>
-        <div class="user">
-            <div id="user-photo"></div>
-            <p class="greeting">HI <?php $_SESSION['username'] ?>, <br/> WHAT ARE YOU UP TO?</p>
-        </div>
-
-    </div>
-    <div class="center">
-        <div class="menu">
-            <a href="http://whatuptoo.herokuapp.com/"><img class="setting" src="../img/setting.png"></a>
-            <a href="http://whatuptoo.herokuapp.com/"><img class="log-out" src="../img/log-out.png"></a>
-        </div>
-        <div class="sidebar">
-            <div class="box-h1">ZNAJOMI</div>
-            <div class="sidebar-znajomi">
-            <div class="box">
-                <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                <p class="name">znajomy<br/></p>
+<?php
+//$users = User::getAllUsers();
+//var_dump($users);
+?>
+<main class="profile-wrapper">
+    <div class="main">
+        <div class="rawbar">
+            <div class="logo">
+                <a href="index.php">
+                    <div id="logo-img"></div>
+                </a>
+                <p class="logo-name">WhatUpTo</p>
             </div>
-                <div class="box">
-                    <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
-                </div>
-                <div class="box">
-                    <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
-                </div>
+            <div class="user">
+                <img id="user-photo" src="img/andrzej.jpg" alt="profile image">
+                <p class="greeting">Hi <?php echo $_SESSION['username']; ?>, what are you up to?</p>
             </div>
-            <div class="box-h1">INNI UŻYTKOWNICY</div>
-            <div class="sidebar-znajomi">
-                <div class="box">
-                    <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
+        </div>
+        <div class="center">
+            <div class="menu">
+                <a href="index.php?action=settings"><img class="setting" src="img/setting.png"></a>
+                <a href="index.php?action=logout"><img class="log-out" src="img/log-out.png"></a>
+            </div>
+            <div class="sidebar">
+                <div class="box-h1">ZNAJOMI</div>
+                <div class="sidebar-znajomi">
+                    <div class="box">
+                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
+                        <p class="name">znajomy</p>
+                        <img class="circle-nieakt" src="img/red.png" alt="nieaktywny">
+                    </div>
                 </div>
-                <div class="box">
-                    <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
-                </div>
-                <div class="box">
-                    <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
-                </div>
-                <div class="box">
-                    <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
-                </div>
-                <div class="box">
-                    <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
-                    <p class="name">znajomy<br/></p>
+                <div class="box-h1">INNI UŻYTKOWNICY</div>
+                <div class="sidebar-znajomi">
+                    <div class="box">
+                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
+                        <p class="name">znajomy</p>
+                        <img class="circle-akt" src="img/green.png" alt="aktywny">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="right">
-            <div class="search_container">
-
-            </div>
             <div class="calendar_container">
                 <div class="calendar">
                     <div class="week">
@@ -197,6 +156,6 @@
         </div>
     </div>
 </div>
-
+</main>
 </body>
 </html>

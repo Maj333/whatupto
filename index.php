@@ -7,10 +7,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="shortcut icon" href="img/favicon.ico">
-    <title>whatupto</title>
+    <title>WhatUpTo</title>
+    <link rel="stylesheet" title="base"
+          href="css\jquery-ui.min.css" type="text/css"/>
+    <link rel="stylesheet" title="base"
+          href="css\jquery-ui.theme.css" type="text/css"/>
+    <link rel="stylesheet" title="base"
+          href="css\main.css" type="text/css"/>
+
+    <script type="text/javascript" src="js\jquery.js"></script>
+    <script type="text/javascript" src="js\jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js\profile.js"></script>
 </head>
 <body>
 <?php
+include_once("./engine/user.php");
 error_reporting(-1);
 ini_set('display_errors', 'On');
 session_start();
