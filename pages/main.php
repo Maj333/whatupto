@@ -134,13 +134,14 @@
                 <li class="chat-message-2">hi!</li>
                 <li class="chat-message-1">This Hackathon is sooo hard</li>
                 <li class="chat-message-2">Mb we will win?</li>
-                <li class="chat-message-1">meh...</li>
+                <li class="chat-message-1">sure!</li>
                 <li class="chat-message-2">?</li>
                 <li class="chat-message-1">Do we even have what it takes to present it?</li>
                 <li class="chat-message-2">oh, u're right...</li>
                 <li class="chat-message-1">I want to go to bed</li>
                 <li class="chat-message-2">oh c'mon, lets coooodeeee...</li>
                 <li class="chat-message-1">yea, sure...</li>
+                <li class="chat-message-1">We got it!</li>
             </ul>
             <input class="write-message" type="text" placeholder="Type message...">
         </div>
