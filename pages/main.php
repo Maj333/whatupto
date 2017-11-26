@@ -130,65 +130,67 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class ="day">
-                            <div class="name"><p>Pon</p></div>
-                            <div class="plan">
-                                <div class="blocks" style="top: 0%; height: 8.3%;">
-                                    <p>cos</p>
+
+                            <div class ="day">
+                                <div class="name"><p>Pon</p></div>
+                                <div class="plan">
+                                    <div class="blocks" style="top: 0%; height: 8.3%;">
+                                        <p>cos</p>
+                                    </div>
+                                    <div class="blocks" style="top: 50%; height: 5%;">
+                                        <p>cos</p>
+                                    </div>
+                                    <div class="blocks" style="top: 57%; height: 10%">
+                                        <p>cos</p>
+                                    </div>
+                                    <div class="blocks" style="top: 81%; height: 7%">
+                                        <p>cos</p>
+                                    </div>
                                 </div>
-                                <div class="blocks" style="top: 50%; height: 5%;">
-                                    <p>cos</p>
-                                </div>
-                                <div class="blocks" style="top: 57%; height: 10%">
-                                    <p>cos</p>
-                                </div>
-                                <div class="blocks" style="top: 81%; height: 7%">
-                                    <p>cos</p>
+
+                            </div>
+                            <div class ="day">
+                                <div class="name"><p>Wt</p></div>
+                                <div class="plan">
                                 </div>
                             </div>
 
-                        </div>
-                        <div class ="day">
-                            <div class="name"><p>Wt</p></div>
-                            <div class="plan">
-                            </div>
-                        </div>
-
-                        <div class ="day">
-                            <div class="name"><p>Śr</p></div>
-                            <div class="plan">
-                                <div class="blocks" style="top: 20%; height: 70px;">
-                                    <p>cos</p>
+                            <div class ="day">
+                                <div class="name"><p>Śr</p></div>
+                                <div class="plan">
+                                    <div class="blocks" style="top: 20%; height: 70px;">
+                                        <p>cos</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class ="day">
-                            <div class="name"><p>Czw</p></div>
-                            <div class="plan">
-                            </div>
-                        </div>
-
-                        <div class ="day">
-                            <div class="name"><p>Pt</p></div>
-                            <div class="plan">
-                            </div>
-                        </div>
-
-                        <div class ="day">
-                            <div class="name"><p>So</p></div>
-                            <div class="plan">
-                                <div class="blocks" style="top: 28%; height: 150px;">
-                                    <p>cos</p>
+                            <div class ="day">
+                                <div class="name"><p>Czw</p></div>
+                                <div class="plan">
                                 </div>
                             </div>
-                        </div>
 
-                        <div class ="day">
-                            <div class="name"><p>Nd</p></div>
-                            <div class="plan">
+                            <div class ="day">
+                                <div class="name"><p>Pt</p></div>
+                                <div class="plan">
+                                </div>
                             </div>
-                        </div>
+
+                            <div class ="day">
+                                <div class="name"><p>So</p></div>
+                                <div class="plan">
+                                    <div class="blocks" style="top: 28%; height: 150px;">
+                                        <p>cos</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class ="day">
+                                <div class="name"><p>Nd</p></div>
+                                <div class="plan">
+                                </div>
+                            </div>
+
                     </div>
                 </div>
             </div>
