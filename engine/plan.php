@@ -138,11 +138,11 @@ connect::connectionInit();
                                             <input class="endtime hidden" placeholder="' . $row['finishtime'] . '" readonly>
                                             <input class="blockid hidden" placeholder="'.$row['bid'].'" readonly>
                                             <input class="day_number hidden" placeholder="'.$row['day'].'" readonly>
-                                            <input class="tags_names" placeholder="';
+                                            <input class="tags_names" placeholder="#';
 
                                             $result2 = blocks::getTags($row['bid']);
                                             while($row1 = mysqli_fetch_assoc($result2)) {
-                                                echo $row1['tag_name'].',';
+                                                echo $row1['tag_name'].', ';
                                             }
 
                                             echo'" readonly>

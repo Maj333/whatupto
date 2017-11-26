@@ -20,12 +20,14 @@
     position: relative;
     display: block;
     text-decoration: none;
-    transition: 0.5s ease
+    transition: 0.5s ease;
+    cursor: pointer;
 }
 
 .box:hover {
     background-color: #2c313a;
     color: #EDFCED;
+    cursor: pointer;
 }
 
 .box:hover .chat_name {
