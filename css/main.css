@@ -5,35 +5,23 @@
 @import "profile.css";
 
 body {
-    /*background-color: #EDFCED;*/
     font-family: Roboto, sans-serif;
     font-size: 12px;
 }
 
-.calendar_container {
-    width: 100%;
-    padding-top: 50px;
-}
-
 .calendar {
-    position: relative;
     width: 60%;
-    margin: 0 auto;
-    font-size: 15px;
+    margin: 70px auto 0 auto;
+    font-size: 1.2em;
+    background: #2d7437;
+    border-radius: 10px;
 }
 
-.week {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    box-shadow: 3px 3px 6px rgba(102, 102, 102, 0.62);
-    display: block;
-    height: 250px;
-    position: relative;
-    width: 100%;
-    background: #2d7437;
+.calendar-header {
+    padding: 20px;
+    box-sizing: border-box;
     text-align: center;
-    color: white;
-    font-size: 30px;
+    color: #FFFFFF;
 }
 
 .date {
@@ -41,22 +29,17 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     letter-spacing: 2px;
+    font-size: 2em;
 }
 
-.week .prev {
-    position: relative;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.prev {
     float: left;
-    padding-left: 10px;
+    font-size: 2em;
 }
 
-.week .next {
-    position: relative;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.next {
     float: right;
-    padding-right: 10px;
+    font-size: 2em;
 }
 
 .weekdays {
@@ -88,7 +71,7 @@ body {
     position: absolute;
     text-align: center;
     border-radius: 6px;
-    font-size:12px;
+    font-size: 12px;
     background: #48ba44;
     color: #1c492b;
 }
@@ -99,7 +82,7 @@ body {
     border-top: solid 1px gray;
 }
 
-.name + .plan {
+.name-day + .plan {
     position: relative;
 }
 
@@ -112,7 +95,7 @@ body {
 .hours li {
     list-style-type: none;
     display: block;
-    margin: 0 2.5% 0 2.5%;
+    margin: 0 2.5%;
     width: 95%;
     position: relative;
     padding-bottom: 20px;
@@ -150,7 +133,12 @@ body {
     line-height: 220%;
     font-family: 'Lobster', cursive;
     font-size: 3em;
+}
 
+.name-day {
+    display: inline;
+    color: #2D7437;
+    line-height: 40px;
 }
 
 #logo-img {
@@ -169,12 +157,15 @@ body {
     position: relative;
 }
 
-.calendar_add{
+.calendar_add {
     padding-top: 10px;
 }
 
-.add-form {
-    margin: 20px 10px;
+.add-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .add-field {
@@ -191,7 +182,7 @@ body {
 .add-button {
     border-radius: 5px;
     background-color: #48BA44;
-    border: 1px solid #CBCBD2;
+    border: 1px solid #393f47;
     width: 30%;
     padding: 10px 5px;
     color: #FFFFFF;
