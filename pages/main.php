@@ -20,7 +20,7 @@
             <p class="logo-name">WhatUpTo</p>
         </div>
         <div class="user">
-            <img id="user-photo" src="https://frieze.com/sites/default/files/styles/general_teaser/public/editorial/johann-by-lukas-gansterer_thumb.jpg?itok=b_TNccXw">
+            <img id="user-photo" src="img/andrzej.jpg">
             <p class="greeting">Hi <?php echo $_SESSION['username']; ?>, <br/> What are you up to?</p>
         </div>
 
