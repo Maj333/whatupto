@@ -42,4 +42,8 @@ Class User {
             return false;
         }
     }
+
+    static public function getAllUsers() {
+
+    }
 }

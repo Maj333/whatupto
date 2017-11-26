@@ -8,7 +8,6 @@ body {
     /*background-color: #EDFCED;*/
     font-family: Roboto, sans-serif;
     font-size: 12px;
-    background-image: url(../img/pattern1.jpg);
 }
 
 .calendar_container {
@@ -126,7 +125,8 @@ body {
 
 .nonlogin-wrapper {
     background-color: #2D7437;
-
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .rawbar {

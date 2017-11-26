@@ -1,6 +1,6 @@
 .login-logo {
     font-family: Lobster, serif;
-    margin: 30px auto;
+    margin: 0 auto;
     width: 50%;
     text-align: center;
     color: #FFFFFF;
@@ -22,7 +22,7 @@
     background-color: #FFFFFF;
     width: 50%;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 30px auto;
     border-radius: 5px;
     padding-top: 20px;
 }
@@ -78,4 +78,3 @@
 .register-link a:hover {
     text-decoration: underline;
 }
-
