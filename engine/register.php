@@ -12,9 +12,6 @@ if (!empty($_POST)) { // jesli cos zostalo przeslane
         $password = $_POST['password'];
         $password_r = $_POST['password_r'];
 
-        echo $username;
-        echo $password;
-
         if ($password == $password_r) {
 
             Connect::connectionInit();
@@ -31,13 +28,10 @@ if (!empty($_POST)) { // jesli cos zostalo przeslane
                 die('Click <a href="../index.php?action=register">here</a> to try again.');
             }
         } else {
-            echo 'passwords doesnt match.';
-            header('../index.php?action=register');
+            header('../index.php?action=register', true, 301);
             die('Click <a href="../index.php?action=register">here</a> to try again.');
         }
     }
 }
 
-
 ?>
-
