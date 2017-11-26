@@ -27,5 +27,20 @@ Class Blocks{
                     ON combinetub.tags_id=tags.id";
 
         $result=mysqli_query(connect::$connection,$query)or die("Błąd przy wyświetlaniu bloków");
+        $column = array();
+        while($row = mysqli_fetch_assoc($result)){
+            $column2=array();
+            array_push($column2,$row['id']);
+            array_push($column2,$row['username']);
+            array_push($column2,$row['starttime']);
+            array_push($column2,$row['finishtime']);
+            array_push($column2,$row['day']);
+            array_push($column2,$row['tag_name']);
+
+            array_push($column,$column2);
+
+        };
+
+        return $column;
     }
 }

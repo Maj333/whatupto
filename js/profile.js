@@ -16,15 +16,32 @@ $( document ).ready(function() {
         var end= $('input[name=hoursfinish]').val();
         var day= $('input[name=day-of-the-week]').val();
 
-        var table_height = 54 * 24;
-        var top = start/table_height;
-        var height = (end-start)/table_height;
-        $('.plan').eq(day).html("<div class=\"blocks\" style=\"top: "+top+"%; height: "+height+"%;\">\n" +
+
+        alert(start);
+        alert(end);
+
+        var table_height = 60 * 24;
+
+
+        var top = (start/table_height)*100;
+        alert(top);
+        var height = (end-start)*100/table_height;
+        alert(height)
+        $('.plan').eq(day).append("<div class=\"blocks\" style=\"top: "+top+"%; height: "+height+"%;\">\n" +
             "                                        <p>cos</p>\n" +
             "                                    </div>");
 
-        $.ajax( "engine/addblock.php?starttime="+start+"&finishtime="+end+"&day="+day+"&tags="+tags+"" );
+        //$.ajax( "engine/addblock.php?starttime="+start+"&finishtime="+end+"&day="+day+"&tags="+tags+"" );
 
+        $.ajax({
+            url: "engine/addblock.php?starttime="+start+"&finishtime="+end+"&day="+day+"&tags="+tags+"",
+            success: function(data, textStatus, xhr) {
+                console.log(data);
+            },
+            complete: function(xhr, textStatus) {
+                console.log(textStatus);
+            }
+        });
 
 
         $( ".blocks" ).draggable({

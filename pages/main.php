@@ -54,8 +54,8 @@
 
                                 <input class="add-field" name="action-tag" type="text" placeholder="Tags">
                                 <input class="add-field" name="day-of-the-week" type="text" placeholder="Weekday">
-                                <input class="add-field" name="hours" type="text" placeholder="Starting Hour">
-                                <input class="add-field" name="hours" type="text" placeholder="Finishing Hour">
+                                <input class="add-field" name="hoursstart" type="text" placeholder="Starting Hour">
+                                <input class="add-field" name="hoursfinish" type="text" placeholder="Finishing Hour">
                                 <button class="add-button">Add</button>
 
                         <div class="prev">&#10094;</div>

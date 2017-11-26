@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d72ce961-498f-40c4-acc6-30859c05403b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engine/addblock.php" afterPath="$PROJECT_DIR$/engine/addblock.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engine/blocks.php" afterPath="$PROJECT_DIR$/engine/blocks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/profile.js" afterPath="$PROJECT_DIR$/js/profile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/main.php" afterPath="$PROJECT_DIR$/pages/main.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,49 +33,47 @@
         <item name="whatuptoo@mysql1.gear.host" type="e3449647:DbNodeDescriptor" />
         <item name="whatuptoo" type="e3449647:DbNodeDescriptor" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="whatuptoo@mysql1.gear.host" type="e3449647:DbNodeDescriptor" />
+        <item name="whatuptoo" type="e3449647:DbNodeDescriptor" />
+        <item name="blocks" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="whatuptoo@mysql1.gear.host" type="e3449647:DbNodeDescriptor" />
+        <item name="whatuptoo" type="e3449647:DbNodeDescriptor" />
+        <item name="combineub" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="profile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <marker date="1511679840445" expanded="true" signature="798:803" ph="..." />
+                <marker date="1511679840445" expanded="true" signature="798:821" ph="..." />
+                <marker date="1511679840445" expanded="true" signature="798:833" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="54" column="73" lean-forward="false" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+            <state relative-caret-position="279">
+              <caret line="54" column="101" lean-forward="true" selection-start-line="54" selection-start-column="101" selection-end-line="54" selection-end-column="101" />
               <folding>
-                <marker date="1511674548297" expanded="true" signature="1273:1539" ph="..." />
-                <marker date="1511674548297" expanded="true" signature="1322:1525" ph="..." />
-                <marker date="1511674548297" expanded="true" signature="1322:1526" ph="..." />
-                <marker date="1511674548297" expanded="true" signature="1322:1539" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <marker date="1511674394137" expanded="true" signature="159:165" ph="{...}" />
-                <marker date="1511674394137" expanded="true" signature="3125:3208" ph="{...}" />
-                <marker date="1511674394137" expanded="true" signature="3228:3262" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/profile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding>
-                <marker date="1511673889817" expanded="true" signature="698:703" ph="..." />
-                <marker date="1511673889817" expanded="true" signature="698:721" ph="..." />
-                <marker date="1511673889817" expanded="true" signature="698:733" ph="..." />
+                <marker date="1511678034180" expanded="true" signature="1273:1539" ph="..." />
+                <marker date="1511678034180" expanded="true" signature="1322:1525" ph="..." />
+                <marker date="1511678034180" expanded="true" signature="1322:1526" ph="..." />
+                <marker date="1511678034180" expanded="true" signature="1322:1539" ph="..." />
               </folding>
             </state>
           </provider>
@@ -80,14 +82,51 @@
       <file leaf-file-name="addblock.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engine/addblock.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="182">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
-                <marker date="1511673730647" expanded="true" signature="298:340" ph="INSERT INTO blocks... " />
-                <marker date="1511673730647" expanded="true" signature="298:344" ph="INSERT INTO blocks... " />
-                <marker date="1511673730647" expanded="true" signature="298:382" ph="INSERT INTO blocks... " />
-                <marker date="1511673730647" expanded="true" signature="298:389" ph="INSERT INTO blocks... " />
+                <marker date="1511677733154" expanded="true" signature="453:500" ph="SELECT id FR... users" />
+                <marker date="1511677733154" expanded="true" signature="635:677" ph="INSERT INTO blocks... " />
+                <marker date="1511677733154" expanded="true" signature="635:681" ph="INSERT INTO blocks... " />
+                <marker date="1511677733154" expanded="true" signature="635:719" ph="INSERT INTO blocks... " />
+                <marker date="1511677733154" expanded="true" signature="635:726" ph="INSERT INTO blocks... " />
+                <marker date="1511677733154" expanded="true" signature="784:845" ph="SELECT MAX(i... blocks" />
+                <marker date="1511677733154" expanded="true" signature="818:844" ph="SELECT MAX(i... blocks" />
+                <marker date="1511677733154" expanded="true" signature="981:1053" ph="INSERT INTO combineub... " />
+                <marker date="1511677733154" expanded="true" signature="1111:1178" ph="SELECT MAX(i... combineub" />
+                <marker date="1511677733154" expanded="true" signature="1148:1177" ph="SELECT MAX(i... combineub" />
+                <marker date="1511677733154" expanded="true" signature="1347:1390" ph="INSERT INTO tags... " />
+                <marker date="1511677733154" expanded="true" signature="1456:1471" ph="SELECT MAX(i... blocks" />
+                <marker date="1511677733154" expanded="true" signature="1456:1499" ph="SELECT id FR... tags" />
+                <marker date="1511677733154" expanded="true" signature="1653:1735" ph="INSERT INTO combinetub... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combinetub" pinned="false" current-in-tab="false">
+        <entry file="das://table:/5701b895/6e7c8250-cb11-4e84-801d-769f238a6a4e/whatuptoo.combinetub">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tags" pinned="false" current-in-tab="false">
+        <entry file="das://table:/5701b895/6e7c8250-cb11-4e84-801d-769f238a6a4e/whatuptoo.tags">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combineub" pinned="false" current-in-tab="false">
+        <entry file="das://table:/5701b895/6e7c8250-cb11-4e84-801d-769f238a6a4e/whatuptoo.combineub">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -95,8 +134,8 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engine/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="674">
+              <caret line="50" column="10" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="50" selection-end-column="10" />
               <folding>
                 <marker date="1511674394137" expanded="true" signature="510:582" ph="INSERT INTO users... " />
                 <marker date="1511674394137" expanded="true" signature="954:1005" ph="SELECT * FRO... users" />
@@ -111,14 +150,14 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6e7c8250-cb11-4e84-801d-769f238a6a4e/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <state relative-caret-position="225">
+              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blocks" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blocks" pinned="false" current-in-tab="false">
         <entry file="das://table:/5701b895/6e7c8250-cb11-4e84-801d-769f238a6a4e/whatuptoo.blocks">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -127,31 +166,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/profile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="75" column="23" lean-forward="false" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
-              <folding>
-                <marker date="1511674394137" expanded="true" signature="1382:1502" ph="{...}" />
-                <marker date="1511674394137" expanded="true" signature="1540:1630" ph="{...}" />
-                <marker date="1511674394137" expanded="true" signature="1757:1761" ph="{...}" />
-                <marker date="1511674394137" expanded="true" signature="1769:1959" ph="{...}" />
-                <marker date="1511674394137" expanded="true" signature="1970:2053" ph="{...}" />
-                <marker date="1511674394137" expanded="true" signature="2064:2147" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engine/connect.php">
+      <file leaf-file-name="blocks.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/engine/blocks.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <caret line="26" column="49" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="26" selection-end-column="49" />
               <folding>
-                <marker date="1511669942569" expanded="true" signature="392:454" ph="{...}" />
-                <marker date="1511669942569" expanded="true" signature="732:749" ph="..." />
+                <marker date="1511674833329" expanded="true" signature="166:842" ph="SELECT combi... " />
               </folding>
             </state>
           </provider>
@@ -194,10 +215,11 @@
         <option value="$PROJECT_DIR$/css/profile.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/engine/connect.php" />
-        <option value="$PROJECT_DIR$/pages/main.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6e7c8250-cb11-4e84-801d-769f238a6a4e/console.sql" />
         <option value="$PROJECT_DIR$/engine/user.php" />
+        <option value="$PROJECT_DIR$/engine/blocks.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6e7c8250-cb11-4e84-801d-769f238a6a4e/console.sql" />
         <option value="$PROJECT_DIR$/engine/addblock.php" />
+        <option value="$PROJECT_DIR$/pages/main.php" />
         <option value="$PROJECT_DIR$/js/profile.js" />
       </list>
     </option>
@@ -484,17 +506,25 @@
       <option name="project" value="LOCAL" />
       <updated>1511674369612</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Merge branch 'master' of https://github.com/gtluszcz/whatuptoo&#10;&#10;# Conflicts:&#10;#&#9;css/main.css">
+      <created>1511674563121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1511674563121</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26512000" />
+    <option name="totallyTimeSpent" value="31538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13018598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13018598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
@@ -662,10 +692,10 @@
         <state relative-caret-position="162">
           <caret line="101" column="27" lean-forward="false" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
           <folding>
-            <marker date="1511674548297" expanded="true" signature="1273:1539" ph="..." />
-            <marker date="1511674548297" expanded="true" signature="1322:1525" ph="..." />
-            <marker date="1511674548297" expanded="true" signature="1322:1526" ph="..." />
-            <marker date="1511674548297" expanded="true" signature="1322:1539" ph="..." />
+            <marker date="1511678034180" expanded="true" signature="1273:1539" ph="..." />
+            <marker date="1511678034180" expanded="true" signature="1322:1525" ph="..." />
+            <marker date="1511678034180" expanded="true" signature="1322:1526" ph="..." />
+            <marker date="1511678034180" expanded="true" signature="1322:1539" ph="..." />
           </folding>
         </state>
       </provider>
@@ -702,9 +732,9 @@
         <state relative-caret-position="90">
           <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding>
-            <marker date="1511673889817" expanded="true" signature="698:703" ph="..." />
-            <marker date="1511673889817" expanded="true" signature="698:721" ph="..." />
-            <marker date="1511673889817" expanded="true" signature="698:733" ph="..." />
+            <marker date="1511679840445" expanded="true" signature="798:803" ph="..." />
+            <marker date="1511679840445" expanded="true" signature="798:821" ph="..." />
+            <marker date="1511679840445" expanded="true" signature="798:833" ph="..." />
           </folding>
         </state>
       </provider>
@@ -800,41 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="54" column="73" lean-forward="false" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
-          <folding>
-            <marker date="1511674548297" expanded="true" signature="1273:1539" ph="..." />
-            <marker date="1511674548297" expanded="true" signature="1322:1525" ph="..." />
-            <marker date="1511674548297" expanded="true" signature="1322:1526" ph="..." />
-            <marker date="1511674548297" expanded="true" signature="1322:1539" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6e7c8250-cb11-4e84-801d-769f238a6a4e/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <marker date="1511674394137" expanded="true" signature="510:582" ph="INSERT INTO users... " />
-            <marker date="1511674394137" expanded="true" signature="954:1005" ph="SELECT * FRO... users" />
-            <marker date="1511674394137" expanded="true" signature="1694:1703" ph="SELECT * FRO... users" />
-            <marker date="1511674394137" expanded="true" signature="1694:1856" ph="..." />
-            <marker date="1511674394137" expanded="true" signature="1955:1981" ph="SELECT usern... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/profile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -850,27 +845,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engine/addblock.php">
+    <entry file="file://$PROJECT_DIR$/engine/blocks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="315">
+          <caret line="26" column="49" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="26" selection-end-column="49" />
           <folding>
-            <marker date="1511673730647" expanded="true" signature="298:340" ph="INSERT INTO blocks... " />
-            <marker date="1511673730647" expanded="true" signature="298:344" ph="INSERT INTO blocks... " />
-            <marker date="1511673730647" expanded="true" signature="298:382" ph="INSERT INTO blocks... " />
-            <marker date="1511673730647" expanded="true" signature="298:389" ph="INSERT INTO blocks... " />
+            <marker date="1511674833329" expanded="true" signature="166:842" ph="SELECT combi... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/profile.js">
+    <entry file="das://table:/5701b895/6e7c8250-cb11-4e84-801d-769f238a6a4e/whatuptoo.tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5701b895/6e7c8250-cb11-4e84-801d-769f238a6a4e/whatuptoo.combinetub">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6e7c8250-cb11-4e84-801d-769f238a6a4e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="225">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/addblock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
-            <marker date="1511673889817" expanded="true" signature="698:703" ph="..." />
-            <marker date="1511673889817" expanded="true" signature="698:721" ph="..." />
-            <marker date="1511673889817" expanded="true" signature="698:733" ph="..." />
+            <marker date="1511677733154" expanded="true" signature="453:500" ph="SELECT id FR... users" />
+            <marker date="1511677733154" expanded="true" signature="635:677" ph="INSERT INTO blocks... " />
+            <marker date="1511677733154" expanded="true" signature="635:681" ph="INSERT INTO blocks... " />
+            <marker date="1511677733154" expanded="true" signature="635:719" ph="INSERT INTO blocks... " />
+            <marker date="1511677733154" expanded="true" signature="635:726" ph="INSERT INTO blocks... " />
+            <marker date="1511677733154" expanded="true" signature="784:845" ph="SELECT MAX(i... blocks" />
+            <marker date="1511677733154" expanded="true" signature="818:844" ph="SELECT MAX(i... blocks" />
+            <marker date="1511677733154" expanded="true" signature="981:1053" ph="INSERT INTO combineub... " />
+            <marker date="1511677733154" expanded="true" signature="1111:1178" ph="SELECT MAX(i... combineub" />
+            <marker date="1511677733154" expanded="true" signature="1148:1177" ph="SELECT MAX(i... combineub" />
+            <marker date="1511677733154" expanded="true" signature="1347:1390" ph="INSERT INTO tags... " />
+            <marker date="1511677733154" expanded="true" signature="1456:1471" ph="SELECT MAX(i... blocks" />
+            <marker date="1511677733154" expanded="true" signature="1456:1499" ph="SELECT id FR... tags" />
+            <marker date="1511677733154" expanded="true" signature="1653:1735" ph="INSERT INTO combinetub... " />
           </folding>
         </state>
       </provider>
@@ -879,6 +904,52 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="50" column="10" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="50" selection-end-column="10" />
+          <folding>
+            <marker date="1511674394137" expanded="true" signature="510:582" ph="INSERT INTO users... " />
+            <marker date="1511674394137" expanded="true" signature="954:1005" ph="SELECT * FRO... users" />
+            <marker date="1511674394137" expanded="true" signature="1694:1703" ph="SELECT * FRO... users" />
+            <marker date="1511674394137" expanded="true" signature="1694:1856" ph="..." />
+            <marker date="1511674394137" expanded="true" signature="1955:1981" ph="SELECT usern... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5701b895/6e7c8250-cb11-4e84-801d-769f238a6a4e/whatuptoo.combineub">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="54" column="101" lean-forward="true" selection-start-line="54" selection-start-column="101" selection-end-line="54" selection-end-column="101" />
+          <folding>
+            <marker date="1511678034180" expanded="true" signature="1273:1539" ph="..." />
+            <marker date="1511678034180" expanded="true" signature="1322:1525" ph="..." />
+            <marker date="1511678034180" expanded="true" signature="1322:1526" ph="..." />
+            <marker date="1511678034180" expanded="true" signature="1322:1539" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1511679840445" expanded="true" signature="798:803" ph="..." />
+            <marker date="1511679840445" expanded="true" signature="798:821" ph="..." />
+            <marker date="1511679840445" expanded="true" signature="798:833" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
