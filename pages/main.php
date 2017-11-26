@@ -55,9 +55,12 @@
                 <div class="calendar">
                     <div class="week">
                         <div class="calendar_add">
+                            <h1 class="add-title">Update your calendar with plans</h1>
                             <form class="add-form" action="" method="">
                                 <input class="add-field" name="action-tag" type="text" placeholder="Tags">
-                                <input class="add-field" name="day-of-the-week" type="text" placeholder="Date">
+                                <input class="add-field" name="day-of-the-week" type="text" placeholder="Weekday">
+                                <input class="add-field" name="hours" type="text" placeholder="Starting Hour">
+                                <input class="add-field" name="hours" type="text" placeholder="Finishing Hour">
                                 <button class="add-button" type="submit">Add</button>
                             </form>
                         </div>
