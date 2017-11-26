@@ -42,4 +42,10 @@ Class User {
             return false;
         }
     }
+
+    /*static public function getAllUsers() {
+        $query = mysqli_query(connect::$connection, "SELECT username FROM users");
+        $rows = mysqli_fetch_assoc($query);
+        return $rows;
+    }*/
 }
