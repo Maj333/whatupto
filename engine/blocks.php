@@ -9,12 +9,12 @@
 Class Blocks{
 
     static public function getAllBlocks(){
-        $query="SELECT combinetub.id, username,starttime,finishtime,day,tag_name
+        $query="SELECT combinetub.id, username,starttime,finishtime,day,tag_name,bid
                 FROM combinetub
                 
                   LEFT JOIN
                   (
-                  SELECT combineub.id, users.username, blocks.starttime, blocks.finishtime, blocks.day
+                  SELECT combineub.id, users.username, blocks.starttime, blocks.finishtime, blocks.day, blocks.id as bid
                   FROM combineub
                     LEFT JOIN users
                       ON combineub.user_id = users.id
@@ -27,20 +27,21 @@ Class Blocks{
                     ON combinetub.tags_id=tags.id";
 
         $result=mysqli_query(connect::$connection,$query)or die("Błąd przy wyświetlaniu bloków");
-        $column = array();
-        while($row = mysqli_fetch_assoc($result)){
-            $column2=array();
-            array_push($column2,$row['id']);
-            array_push($column2,$row['username']);
-            array_push($column2,$row['starttime']);
-            array_push($column2,$row['finishtime']);
-            array_push($column2,$row['day']);
-            array_push($column2,$row['tag_name']);
+//        $column = array();
+//        while($row = mysqli_fetch_assoc($result)){
+//            $column2=array();
+//            array_push($column2,$row['id']);
+//            array_push($column2,$row['username']);
+//            array_push($column2,$row['starttime']);
+//            array_push($column2,$row['finishtime']);
+//            array_push($column2,$row['day']);
+//            array_push($column2,$row['tag_name']);
+//            array_push($column2,$row['bid']);
+//
+//            array_push($column,$column2);
+//
+//        };
 
-            array_push($column,$column2);
-
-        };
-
-        return $column;
+        return $result;
     }
 }

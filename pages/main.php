@@ -95,65 +95,9 @@
                             </div>
                         </div>
 
-                            <div class ="day">
-                                <div class="name-day">Pon</div>
-                                <div class="plan">
-                                    <div class="blocks" style="top: 0; height: 8.3%;">
-                                        <p>cos</p>
-                                    </div>
-                                    <div class="blocks" style="top: 50%; height: 5%;">
-                                        <p>cos</p>
-                                    </div>
-                                    <div class="blocks" style="top: 57%; height: 10%">
-                                        <p>cos</p>
-                                    </div>
-                                    <div class="blocks" style="top: 81%; height: 7%">
-                                        <p>cos</p>
-                                    </div>
-                                </div>
+                            <?php  include 'engine/plan.php';?>
 
-                            </div>
-                            <div class ="day">
-                                <div class="name-day">Wt</div>
-                                <div class="plan">
-                                </div>
-                            </div>
 
-                            <div class ="day">
-                                <div class="name-day">Śr</div>
-                                <div class="plan">
-                                    <div class="blocks" style="top: 20%; height: 70px;">
-                                        <p>cos</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class ="day">
-                                <div class="name-day">Czw</div>
-                                <div class="plan">
-                                </div>
-                            </div>
-
-                            <div class ="day">
-                                <div class="name-day">Pt</div>
-                                <div class="plan">
-                                </div>
-                            </div>
-
-                            <div class ="day">
-                                <div class="name-day">So</div>
-                                <div class="plan">
-                                    <div class="blocks" style="top: 28%; height: 150px;">
-                                        <p>cos</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class ="day">
-                                <div class="name-day">Nd</div>
-                                <div class="plan">
-                                </div>
-                            </div>
                     </div>
                 </div>
             </div>

@@ -74,8 +74,11 @@ body {
     font-size: 12px;
     background: #48ba44;
     color: #1c492b;
+    overflow: hidden;
 }
-
+.hidden{
+    display: none;
+}
 .plan {
     height: calc(54px * 24);
     border-right: solid 1px gray;
