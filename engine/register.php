@@ -20,15 +20,15 @@ if (!empty($_POST)) { // jesli cos zostalo przeslane
                 User::addUser($username, $password);
                 session_start();
                 $_SESSION['username'] = $username;
-                header('../index.php');
+                header('location: ../index.php', true, 301);
                 die('Registered succesfully. Click <a href="../index.php">here</a> to log in.');
             } else {
                 echo 'Username taken.';
-                header('../index.php?action=register');
+                header('location: ../index.php?action=register', true, 301);
                 die('Click <a href="../index.php?action=register">here</a> to try again.');
             }
         } else {
-            header('../index.php?action=register', true, 301);
+            header('location: ../index.php?action=register', true, 301);
             die('Click <a href="../index.php?action=register">here</a> to try again.');
         }
     }
