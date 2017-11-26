@@ -6,12 +6,12 @@ $error = ''; // Variable To Store Error Message
 echo '1';
     if (!isset($_POST['username']) || !isset($_POST['password'])) {
 
-        $error = "Username or Password is invalid";
+        $echo = "Username or Password is invalid";
     } else {
         Connect::connectionInit();
         if(User::checkIfCredentialsAreCorrect($_POST['username'], $_POST['password'])) {
             session_start();
-            $_SESSION['user'] = $_POST['username'];
+            $_SESSION['username'] = $_POST['username'];
             header("../index.php");
             die('Zalogowano. Jesli nie nastapi przekierowanie kliknij <a href="../index.php">tutaj</a>');
         }
