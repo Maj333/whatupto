@@ -24,18 +24,28 @@
             <div class="sidebar">
                 <div class="box-h1">ZNAJOMI</div>
                 <div class="sidebar-znajomi">
-                    <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo"
-                                                                       src="https://microbitpolska.org/static/img/profile.png"></a>
-                        <p class="name">znajomy</p>
-                    </div>
+
+                    <?php
+                    require_once "engine/connect.php";
+                    require_once "engine/user.php";
+                    connect::connectionInit();
+                    $lol = user::getAllUsers();
+                    foreach($lol as $user){
+                        echo "<div class=\"box\">
+                        <a href=\"http://whatuptoo.herokuapp.com/\"><img class=\"znajomy-photo\" src=\"https://microbitpolska.org/static/img/profile.png\"></a>
+                        <p class=\"name\">".$user."</p>
+                        <img class=\"circle-nieakt\" src=\"img/red.png\" alt=\"nieaktywny\">
+                    </div>";
+                    }
+                    
+                    ?>
                 </div>
                 <div class="box-h1">INNI UŻYTKOWNICY</div>
                 <div class="sidebar-znajomi">
                     <div class="box">
-                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo"
-                                                                       src="https://microbitpolska.org/static/img/profile.png"></a>
+                        <a href="http://whatuptoo.herokuapp.com/"><img class="znajomy-photo" src="https://microbitpolska.org/static/img/profile.png"></a>
                         <p class="name">znajomy</p>
+                        <img class="circle-akt" src="img/green.png" alt="aktywny">
                     </div>
                 </div>
             </div>
@@ -45,9 +55,12 @@
                 <div class="calendar">
                     <div class="week">
                         <div class="calendar_add">
+                            <h1 class="add-title">Update your calendar with plans</h1>
                             <form class="add-form" action="" method="">
                                 <input class="add-field" name="action-tag" type="text" placeholder="Tags">
-                                <input class="add-field" name="day-of-the-week" type="text" placeholder="Date">
+                                <input class="add-field" name="day-of-the-week" type="text" placeholder="Weekday">
+                                <input class="add-field" name="hours" type="text" placeholder="Starting Hour">
+                                <input class="add-field" name="hours" type="text" placeholder="Finishing Hour">
                                 <button class="add-button" type="submit">Add</button>
                             </form>
                         </div>
@@ -58,7 +71,7 @@
                         </div>
                     </div>
                     <div class="weekdays">
-                        <div class="day">
+                        <div class ="day">
                             <div class="name"><p>Godziny</p></div>
                             <div class="plan">
                                 <ul class="hours">
@@ -89,71 +102,73 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="day">
-                            <div class="name"><p>Pon</p></div>
-                            <div class="plan">
-                                <div class="blocks" style="top: 0%; height: 8.3%;">
-                                    <p>cos</p>
+
+                            <div class ="day">
+                                <div class="name"><p>Pon</p></div>
+                                <div class="plan">
+                                    <div class="blocks" style="top: 0%; height: 8.3%;">
+                                        <p>cos</p>
+                                    </div>
+                                    <div class="blocks" style="top: 50%; height: 5%;">
+                                        <p>cos</p>
+                                    </div>
+                                    <div class="blocks" style="top: 57%; height: 10%">
+                                        <p>cos</p>
+                                    </div>
+                                    <div class="blocks" style="top: 81%; height: 7%">
+                                        <p>cos</p>
+                                    </div>
                                 </div>
-                                <div class="blocks" style="top: 50%; height: 5%;">
-                                    <p>cos</p>
-                                </div>
-                                <div class="blocks" style="top: 57%; height: 10%">
-                                    <p>cos</p>
-                                </div>
-                                <div class="blocks" style="top: 81%; height: 7%">
-                                    <p>cos</p>
+
+                            </div>
+                            <div class ="day">
+                                <div class="name"><p>Wt</p></div>
+                                <div class="plan">
                                 </div>
                             </div>
 
-                        </div>
-                        <div class="day">
-                            <div class="name"><p>Wt</p></div>
-                            <div class="plan">
-                            </div>
-                        </div>
-
-                        <div class="day">
-                            <div class="name"><p>Śr</p></div>
-                            <div class="plan">
-                                <div class="blocks" style="top: 20%; height: 70px;">
-                                    <p>cos</p>
+                            <div class ="day">
+                                <div class="name"><p>Śr</p></div>
+                                <div class="plan">
+                                    <div class="blocks" style="top: 20%; height: 70px;">
+                                        <p>cos</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="day">
-                            <div class="name"><p>Czw</p></div>
-                            <div class="plan">
-                            </div>
-                        </div>
-
-                        <div class="day">
-                            <div class="name"><p>Pt</p></div>
-                            <div class="plan">
-                            </div>
-                        </div>
-
-                        <div class="day">
-                            <div class="name"><p>So</p></div>
-                            <div class="plan">
-                                <div class="blocks" style="top: 28%; height: 150px;">
-                                    <p>cos</p>
+                            <div class ="day">
+                                <div class="name"><p>Czw</p></div>
+                                <div class="plan">
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="day">
-                            <div class="name"><p>Nd</p></div>
-                            <div class="plan">
+                            <div class ="day">
+                                <div class="name"><p>Pt</p></div>
+                                <div class="plan">
+                                </div>
                             </div>
-                        </div>
+
+                            <div class ="day">
+                                <div class="name"><p>So</p></div>
+                                <div class="plan">
+                                    <div class="blocks" style="top: 28%; height: 150px;">
+                                        <p>cos</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class ="day">
+                                <div class="name"><p>Nd</p></div>
+                                <div class="plan">
+                                </div>
+                            </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+</div>
 </main>
 </body>
 </html>

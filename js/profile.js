@@ -5,7 +5,8 @@ $( document ).ready(function() {
     $( ".blocks" ).draggable({
         snap: ".plan,.blocks",
         snapTolerance: snap_width/2,
-        snapMode: "outer",
+        snapMode: "inner",
+        containment: ".weekdays"
 
     });
 
